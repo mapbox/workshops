@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Geography Game</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.17.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.17.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; font: 15px/20px sans-serif; }
+    .overlay {
+      padding: 10px;
+      position: absolute;
+      height: 100px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      background: #fff;
+    }
+
+    #buttons { display: inline; }
+    button {
+      display:inline-block;
+      font-size: 30px;
+      padding:5px;
+      margin:0 10px;
+    }
+    #map {
+      position:absolute;
+      top:0;
+      bottom:100px;
+      width:100%;
+    }
+  </style>
+</head>
+<body>
+<div id='map'></div>
+<div class='overlay'>
+  <div style='display:inline-block;padding:5px 20px;'>
+    <h2>Name that country!</h2>
+    <p>What country is highlighted in orange?</p>
+  </div>
+  <div id='buttons'>
+  </div>
+</div>
+<script src='names.js'></script>
+<script src='countries.js'></script>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoidG1jdyIsImEiOiJIZmRUQjRBIn0.lRARalfaGHnPdRcc-7QZYQ';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/satellite-v8',
+    center: [0, 0],
+    zoom: 3
+});
+
+map.on('style.load', function() {
+
+  map.addSource('countries', {
+    type: 'geojson',
+    data: countries
+  });
+
+  map.addLayer({
+    'id': 'highlighted-country',
+    'type': 'fill',
+    'source': 'countries',
+    'layout': {},
+    'filter': ['==', 'name', 'United States'],
+    'paint': {
+      'fill-color': '#EFAF27',
+      'fill-opacity': 1
+    }
+  });
+
+  function nextQuestion() {
+
+    var options = names
+      .sort(function() { return Math.random() - 0.5; })
+      .slice(0, 3);
+
+    name = names.slice(3);
+
+    var target = options[0];
+
+    map.setFilter('highlighted-country', ['==', 'name', target]);
+    map.fitBounds(boundsByName[target]);
+
+    options.sort();
+
+    buttons.innerHTML = '';
+    options.forEach(function(option, i) {
+      var button = buttons.appendChild(document.createElement('button'));
+      button.innerHTML = options[i];
+      button.onclick = function() {
+        if (option === target) {
+          alert('Good job!');
+          nextQuestion();
+        } else {
+          alert('Wrong answer!');
+        }
+      }
+    });
+
+  }
+
+  nextQuestion();
+});
+</script>
+</body>
+</html>
