@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Bus Stop Finder</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.js'></script>
+    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js'></script>
+    <script src='data/stops.js'></script>
+    <script src='data/destinations.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ2VvaGFja2VyIiwiYSI6ImFIN0hENW8ifQ.GGpH9gLyEg0PZf3NPQ7Vrg';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
+    center: [77.5912997, 12.9791198], // starting position
+    zoom: 11, // starting zoom
+    hash: true
+});
+
+// Define bus stops data source
+var stopsSource = {
+    "type": "geojson",
+    "data": stops
+};
+
+// Create a layer from the data source
+var stopsLayer = {
+    "id": "stops",
+    "source": "stops",
+    "type": "circle",
+    "paint": {
+
+        // Zoom level interpolation for circle width
+        "circle-radius": {
+            "base": 1,
+            "stops": [[7, 1], [8, 1.3], [9, 1.6], [10, 2], [20, 4]]
+        },
+        "circle-color": "black",
+    },
+    "interactive": true
+};
+
+var stopsInnerLayer = {
+    "id": "stopsInner",
+    "source": "stops",
+    "type": "circle",
+    "paint": {
+        "circle-radius": 10,
+        "circle-color": "red",
+        "circle-opacity": 0.6,
+        "circle-blur": 0.8
+    },
+    "filter": ["==", "name", ""]
+};
+
+// Create destinations source
+var destinationsSource = {
+    "type": "geojson",
+    "data": destinations
+};
+
+// Create destinations layer
+var destinationsLayer = {
+    "id": "destinations",
+    "type": "line",
+    "source": "destinations",
+    "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+    },
+    "paint": {
+        "line-color": "black",
+        "line-width": 1,
+        "line-opacity": 0.8,
+        "line-blur": 1
+    },
+    "filter": ["==", "name", ""]
+};
+
+// Create destinations label layer
+var destinationsLabel = {
+    "id": "destinationsLabel",
+    "type": "symbol",
+    "source": "destinations",
+    "layout": {
+        "symbol-placement": "line",
+        "text-field": "{route}",
+        "text-size": 12,
+        "text-offset": [0, 1]
+    },
+    "paint": {
+        "text-halo-color": "red",
+        "text-halo-width": 0.2
+    },
+    "filter": ["==", "name", ""]
+};
+
+// When the map is ready, add the layer.
+map.on('style.load', function () {
+    map.addSource("stops", stopsSource);
+    map.addLayer(stopsLayer);
+    map.addLayer(stopsInnerLayer);
+    map.addSource("destinations", destinationsSource);
+    map.addLayer(destinationsLayer);
+    map.addLayer(destinationsLabel);
+});
+
+// Setup click handler
+map.on('click', function (e) {
+
+    map.featuresAt(e.point, {
+        radius: 5,
+        layer: ["stops"]
+    }, function (err, features) {
+        if (!err && features.length) {
+            map.setFilter("destinations", ["==", "name", features[0].properties.name]);
+            map.setFilter("destinationsLabel", ["==", "name", features[0].properties.name]);
+        } else {
+            showStops(e);
+        }
+    });
+});
+
+function showStops(e) {
+
+    // Clear previous buffer if any
+    if (map.getLayer('buffer')) {
+        map.removeLayer('buffer');
+        map.removeSource('buffer');
+    }
+
+    // Clear destination lines and labels if any
+    map.setFilter("destinationsLabel", ["==", "name", ""]);
+    map.setFilter("destinations", ["==", "name", ""]);
+
+    // Create a point object
+    var point = turf.point([e.lngLat.lng, e.lngLat.lat]);
+
+    // Get the 1km buffer
+    var buffer = turf.buffer(point, 1, 'kilometers');
+
+    var bufferSource = {
+        "type": "geojson",
+        "data": buffer
+    };
+
+    var bufferLayer = {
+        "id": "buffer",
+        "source": "buffer",
+        "type": "fill",
+        "paint": {
+            "fill-color": "black",
+            "fill-opacity": 0.1
+        }
+    };
+
+    map.addSource("buffer", bufferSource);
+    map.addLayer(bufferLayer);
+
+    findStops(buffer);
+}
+
+function findStops(buffer) {
+
+    // Find all the stops in the buffer
+    var stopsWithin = turf.within(stops, buffer);
+    var filters = ["any"];
+    stopsWithin.features.forEach(function(stop) {
+        filters.push(["==", "name", stop.properties.name]);
+    });
+
+    map.setFilter("stopsInner", filters);
+}
+</script>
+
+</body>
+</html>
+
