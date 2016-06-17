@@ -436,3 +436,8 @@ map.setFilter("routeLabel", ["==", "name", clickedFeatures[0].properties.name]);
 ```
 map.setFilter("routeLabel", ["==", "name", ""]);
 ```
+--
+
+![image](https://cloud.githubusercontent.com/assets/4470913/16147933/02ad4360-34a4-11e6-9398-c6ac8092825e.png)
+
+A working prototype of this can be found **[here](http://mapbox.github.io/workshops/mapbox-gl-js/#12.86/12.9774/77.5757)**
