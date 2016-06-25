@@ -3,7 +3,7 @@
 * data and QGIS installer - pendrive (please give it back!)
  * `Satellite_workshop_data` (required)
  * `QGIS installer` (optional)
-* [Bangalore map - between 1999 and 2015](https://jothirnadh.github.io/Satellite_workshop/#10.11/12.9706/77.5955)
+* [Bangalore map - between 1999 and 2015](http://mapbox.github.io/workshops/satellite-workshop/)
 
 
 ![stellite_workshop](https://cloud.githubusercontent.com/assets/13744156/16257213/a3d8f512-3874-11e6-97cd-83344f1c39a3.png)
@@ -185,6 +185,7 @@ before style = L7 style ID
 
 * Create two different geojson files for `before` function and `after` function to represent the **1999** and **2015** in the application.
 
-## Final Output
+## Final Output 
 
-https://jothirnadh.github.io/Satellite_workshop/#
+The final output can be seen **[here](http://mapbox.github.io/workshops/satellite-workshop/)**
+
