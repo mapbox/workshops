@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.0.1/mapbox-gl-compare.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.0.1/mapbox-gl-compare.css' type='text/css' />
+<style>
+body {
+    overflow: hidden;
+}
+
+body * {
+   -webkit-touch-callout: none;
+     -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+
+<div id='before' class='map'></div>
+<div id='after' class='map'></div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoiam90aGlybmFkaCIsImEiOiI0MTIzNmYwZmIzNWQ3MjFlNWE2YmE4YzU1YWQyNDdhOCJ9.afll1jVPlwiIoz0bJx51_g';
+var before = new mapboxgl.Map({
+    container: 'before',
+    style: 'mapbox://styles/jothirnadh/cipqj136n0001cxmbpzhfhdtp',
+    center: [77.5964,12.9423],
+    zoom: 10,
+    hash: true
+});
+
+var after = new mapboxgl.Map({
+    container: 'after',
+    style: 'mapbox://styles/jothirnadh/cipqhrq50004tdjnusthalxd5',
+    center: [77.5964,12.9423],
+    zoom: 10,
+    hash: true
+});
+
+new mapboxgl.Compare(before, after);
+
+after.on('load', function () {
+    after.addSource("markers", {
+        "type": "geojson",
+        "data": {
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [77.9397,13.0254]
+                },
+                "properties": {
+                    "title": "2015"
+                }
+            }]
+        }
+    });
+
+    after.addLayer({
+        "id": "markers",
+        "type": "symbol",
+        "source": "markers",
+        "layout": {
+            "icon-image": "{marker-symbol}-15",
+            "text-field": "{title}",
+            "text-size": 50,
+            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-offset": [0, 0.6],
+            "text-anchor": "top"
+        }
+    });
+ });  
+
+
+ before.on('load', function () {
+    before.addSource("markers", {
+        "type": "geojson",
+        "data": {
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [77.2572,13.0254]
+                },
+                "properties": {
+                    "title": "1999"
+                }
+            }]
+        }
+    });
+
+    before.addLayer({
+        "id": "markers",
+        "type": "symbol",
+        "source": "markers",
+        "layout": {
+            "icon-image": "{marker-symbol}-15",
+            "text-field": "{title}",
+            "text-size": 50,
+            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-offset": [0, 0.6],
+            "text-anchor": "top"
+        }
+    });
+ });   
+
+</script>
+
+</body>
+</html>
