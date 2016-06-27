@@ -1,7 +1,7 @@
 # Mapbox Bengaluru Satellite Workshop
 
 * Data and QGIS installer
- * [Satellite workshop data](https://www.dropbox.com/sh/0rh6jdjvrsa29i7/AAB5Q8UORui1zowVgOovjILHa?dl=0)
+ * [Satellite workshop data](https://www.dropbox.com/sh/0rh6jdjvrsa29i7/AAB5Q8UORui1zowVgOovjILHa?dl=0) (`847 MB`)
  * `QGIS installer` (optional)
 * [Satellite image of Bangalore - between 1999 and 2015](http://mapbox.github.io/workshops/satellite-workshop/)
 
