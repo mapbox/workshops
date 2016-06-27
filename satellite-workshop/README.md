@@ -151,7 +151,6 @@
 
 #### See also
 
-* [Principles of Remote Sensing](http://www.itc.nl/library/papers_2009/general/PrinciplesRemoteSensing.pdf)
 * [Satellites in Global Development](http://landscape.satsummit.io/)
 * [Electromagnetic Spectrum](http://www.ctahr.hawaii.edu/miuralab/projects/makaha/intro_RS.html)
 * [Landsat 7 vs Landsat 8 comparison](http://landsat.gsfc.nasa.gov/?p=3186)
