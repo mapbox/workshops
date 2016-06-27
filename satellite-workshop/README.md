@@ -1,7 +1,7 @@
 # Mapbox Bengaluru Satellite Workshop, June 24
 
-* data and QGIS installer - pendrive (please give it back!)
- * `Satellite_workshop_data` (required)
+* Data and QGIS installer
+ * [Satellite workshop data](https://www.dropbox.com/sh/0rh6jdjvrsa29i7/AAB5Q8UORui1zowVgOovjILHa?dl=0)
  * `QGIS installer` (optional)
 * [Bangalore map - between 1999 and 2015](http://mapbox.github.io/workshops/satellite-workshop/)
 
