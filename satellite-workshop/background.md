@@ -15,8 +15,10 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 
 ### Landsat and Sentinel
 ![](http://landsat.gsfc.nasa.gov/wp-content/uploads/2015/06/Landsat.v.Sentinel-2.png)
+- [Landsat Bands](http://landsat.usgs.gov/best_spectral_bands_to_use.php)
+- Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial)
 
-**Landsat 8 band combinations**
+**[Landsat 8 band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/)** 
 - Natural Color 4 3 2
 - False Color (urban) 7 6 4
 - Color Infrared (vegetation) 5 4 3
@@ -27,3 +29,11 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 - Natural With Atmospheric Removal 7 5 3
 - Shortwave Infrared 7 5 4
 - Vegetation Analysis 6 5 4
+
+## Processing and Analysis
+Use one of these resources to start analyzing the bands from your data source:
+- https://github.com/mapbox/workshops/tree/gh-pages/satellite-workshop
+- https://www.mapbox.com/blog/putting-landsat-8-bands-to-work/
+- http://landsat.gsfc.nasa.gov/?page_id=2372
+- http://www.harrisgeospatial.com/Home/NewsUpdates/TabId/170/ArtMID/735/ArticleID/14305/The-Many-Band-Combinations-of-Landsat-8.aspx
+- http://gisgeography.com/landsat-program-satellite-imagery-bands/
