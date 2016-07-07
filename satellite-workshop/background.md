@@ -1,6 +1,7 @@
 # Analyzing the Earth using Earth Observation data
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/A-Train_w-Time2013_Web.jpg/1599px-A-Train_w-Time2013_Web.jpg)
+![untitled2](https://cloud.githubusercontent.com/assets/126868/16667445/24493b76-44aa-11e6-9c7f-96278c2f829d.gif)
+_Combinations of spectral analysis over the [Mumbai landfill fire](https://www.mapbox.com/blog/mumbai-landfill-fire/) from Sentinel data_
 
 [Earth Observation satellites](https://en.wikipedia.org/wiki/Earth_observation_satellite) regularly collect environment and surface data of the Earth.
 
