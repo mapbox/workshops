@@ -1,5 +1,8 @@
-# Mapbox Bengaluru Satellite Workshop
+# Satellite Imagery Analysis Workshop
 
+An introductory hands-on workshop on processing and analyzing satellite imagery for urban growth and vegetation cover.
+
+**Requirements**
 * Data and QGIS installer
  * [Satellite workshop data](https://www.dropbox.com/sh/0rh6jdjvrsa29i7/AAB5Q8UORui1zowVgOovjILHa?dl=0) (`847 MB`)
  * `QGIS installer` (optional)
