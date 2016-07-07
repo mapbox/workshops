@@ -6,7 +6,7 @@ _Combinations of spectral analysis over the [Mumbai landfill fire](https://www.m
 [Earth Observation satellites](https://en.wikipedia.org/wiki/Earth_observation_satellite) regularly collect environment and surface data of the Earth.
 
 ## Data
-* NASA Landsat-8/ESA Sentinel-2 Satellite search https://remotepixel.ca/projects/satellitesearch.html
+* NASA Landsat-8/ESA Sentinel-2 Satellite search https://remotepixel.ca/projects/satellitesearch.html ([About](https://remotepixel.ca/blog/satellitesearch_20160610.html))
 * [India] ISRO Oceansat-2/Resourcesat-1  http://bhuvan.nrsc.gov.in/data/download/index.php
 * https://en.wikipedia.org/wiki/List_of_Earth_observation_satellites
 
@@ -16,7 +16,7 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 ### Landsat and Sentinel
 ![](http://landsat.gsfc.nasa.gov/wp-content/uploads/2015/06/Landsat.v.Sentinel-2.png)
 - [Landsat Bands](http://landsat.usgs.gov/best_spectral_bands_to_use.php)
-- Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial)
+- [Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial)
 
 **[Landsat 8 band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/)** 
 - Natural Color 4 3 2
