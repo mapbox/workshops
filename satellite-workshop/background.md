@@ -6,7 +6,7 @@
 
 ## Data
 * NASA Landsat-8/ESA Sentinel-2 Satellite search https://remotepixel.ca/projects/satellitesearch.html
-* ISRO Oceansat-2/Resourcesat-1 http://bhuvan.nrsc.gov.in/data/download/index.php
+* [India] ISRO Oceansat-2/Resourcesat-1  http://bhuvan.nrsc.gov.in/data/download/index.php
 * https://en.wikipedia.org/wiki/List_of_Earth_observation_satellites
 
 ## Bands
