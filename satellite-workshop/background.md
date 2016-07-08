@@ -30,6 +30,10 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 - Shortwave Infrared 7 5 4
 - Vegetation Analysis 6 5 4
 
+
+**Sentinel-2**
+- Vegetation Health [6 5 3](http://www.sterlinggeo.com/news-articles/2016/01/07/a-look-at-the-new-sentinel-2a-data/): Healthy vegetation (red-orange)
+
 ## Processing and Analysis
 Use one of these resources to start analyzing the bands from your data source:
 - https://github.com/mapbox/workshops/tree/gh-pages/satellite-workshop
