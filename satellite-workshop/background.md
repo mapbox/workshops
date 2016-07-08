@@ -16,7 +16,7 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 ### Landsat and Sentinel
 ![](http://landsat.gsfc.nasa.gov/wp-content/uploads/2015/06/Landsat.v.Sentinel-2.png)
 - [Landsat Bands](http://landsat.usgs.gov/best_spectral_bands_to_use.php)
-- [Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial)
+- [Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial) | [Specification](https://sentinel.esa.int/documents/247904/685211/Sentinel-2+Products+Specification+Document+%28PSD%29/0f7bedeb-9fbb-4b60-91aa-809162de456c)
 
 **[Landsat 8 band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/)** 
 - Natural Color 4 3 2
