@@ -37,3 +37,4 @@ Use one of these resources to start analyzing the bands from your data source:
 - http://landsat.gsfc.nasa.gov/?page_id=2372
 - http://www.harrisgeospatial.com/Home/NewsUpdates/TabId/170/ArtMID/735/ArticleID/14305/The-Many-Band-Combinations-of-Landsat-8.aspx
 - http://gisgeography.com/landsat-program-satellite-imagery-bands/
+- http://www.bluecover.pt/wp-content/uploads/2014/03/paper-remote-sensing-with-satellite-open-data-nduro_ggoncalves-v1_0_accepted.pdf
