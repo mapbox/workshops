@@ -16,7 +16,7 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 ### Landsat and Sentinel
 ![](http://landsat.gsfc.nasa.gov/wp-content/uploads/2015/06/Landsat.v.Sentinel-2.png)
 - [Landsat Bands](http://landsat.usgs.gov/best_spectral_bands_to_use.php)
-- [Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial) | [Specification](https://sentinel.esa.int/documents/247904/685211/Sentinel-2+Products+Specification+Document+%28PSD%29/0f7bedeb-9fbb-4b60-91aa-809162de456c)
+- 
 
 **[Landsat 8 band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/)** 
 - Natural Color 4 3 2
@@ -33,7 +33,9 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 
 **Sentinel-2**
 <img width="1202" alt="screenshot 2016-07-09 01 04 44" src="https://cloud.githubusercontent.com/assets/126868/16699332/277277b4-4571-11e6-8e4f-b4d7fc045154.png">
-_Source: http://www.eurosdr.net/sites/default/files/images/inline/1-2dag_gascon_ws_sentinel.pdf_
+_[Source](http://www.eurosdr.net/sites/default/files/images/inline/1-2dag_gascon_ws_sentinel.pdf)_
+
+[Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial) | [Specification](https://sentinel.esa.int/documents/247904/685211/Sentinel-2+Products+Specification+Document+%28PSD%29/0f7bedeb-9fbb-4b60-91aa-809162de456c)_
 - False Color [8 4 3](https://scientiaplusconscientia.wordpress.com/2016/02/11/working-with-sentinel-2-data-visualizing-and-exploring-with-snap/)
 - Vegetation Health [6 5 3](http://www.sterlinggeo.com/news-articles/2016/01/07/a-look-at-the-new-sentinel-2a-data/): Healthy vegetation (red-orange)
 
