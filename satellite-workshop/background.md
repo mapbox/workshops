@@ -32,6 +32,7 @@ The data is collected in multiple bands, each capturing the reflected radiation 
 
 
 **Sentinel-2**
+- False Color [8 4 3](https://scientiaplusconscientia.wordpress.com/2016/02/11/working-with-sentinel-2-data-visualizing-and-exploring-with-snap/)
 - Vegetation Health [6 5 3](http://www.sterlinggeo.com/news-articles/2016/01/07/a-look-at-the-new-sentinel-2a-data/): Healthy vegetation (red-orange)
 
 ## Processing and Analysis
