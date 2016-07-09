@@ -3,7 +3,7 @@
 ![untitled2](https://cloud.githubusercontent.com/assets/126868/16667445/24493b76-44aa-11e6-9c7f-96278c2f829d.gif)<br>
 _Combinations of spectral analysis over the [Mumbai landfill fire](https://www.mapbox.com/blog/mumbai-landfill-fire/) from Sentinel data_
 
-[Earth Observation satellites](https://en.wikipedia.org/wiki/Earth_observation_satellite) regularly collect environment and surface data of the Earth.
+[Earth Observation satellites](https://en.wikipedia.org/wiki/Earth_observation_satellite) regularly collect environment and surface data of the Earth, making a revisit over any part of the world evry 1-4 weeks. The satellites usually capture different wavelengths of the Sun's radiation reflected from the surface and atmosphere including the visible spectrum, infrared, shortwave and others that help identify various features not visible to the eye using spectral analysis.
 
 ## Data
 * NASA Landsat-8/ESA Sentinel-2 Satellite search https://remotepixel.ca/projects/satellitesearch.html ([About](https://remotepixel.ca/blog/satellitesearch_20160610.html))
