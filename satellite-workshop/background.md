@@ -37,6 +37,7 @@ _[Source](http://www.eurosdr.net/sites/default/files/images/inline/1-2dag_gascon
 
 - False Color [8 4 3](https://scientiaplusconscientia.wordpress.com/2016/02/11/working-with-sentinel-2-data-visualizing-and-exploring-with-snap/)
 - Vegetation Health [6 5 3](http://www.sterlinggeo.com/news-articles/2016/01/07/a-look-at-the-new-sentinel-2a-data/): Healthy vegetation (red-orange)
+- SWIR Fires [12 11 8a](http://www.geosage.com/highview/features_sentinel2.html)
 
 ## Processing and Analysis
 Use one of these resources to start analyzing the bands from your data source:
