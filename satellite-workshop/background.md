@@ -48,3 +48,7 @@ Use one of these resources to start analyzing the bands from your data source:
 - http://gisgeography.com/landsat-program-satellite-imagery-bands/
 - http://www.bluecover.pt/wp-content/uploads/2014/03/paper-remote-sensing-with-satellite-open-data-nduro_ggoncalves-v1_0_accepted.pdf
 - http://semiautomaticclassificationmanual-v4.readthedocs.io/en/latest/remote_sensing.html
+
+**Theory**
+- [Displaying and Stretching 16-bit per Band Digital Imagery - NASA](https://www.fsa.usda.gov/Assets/USDA-FSA-Public/usdafiles/APFO/support-documents/pdfs/film_vs_digital_linear_non-linear_stretches.pdf)
+- [Sentinel-2 Data for Crop and Tree Species Classifications](http://www.mdpi.com/2072-4292/8/3/166/htm)
