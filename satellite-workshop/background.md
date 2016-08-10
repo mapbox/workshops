@@ -13,6 +13,9 @@ _Combinations of spectral analysis over the [Mumbai landfill fire](https://www.m
 ## Bands
 The data is collected in multiple bands, each capturing the reflected radiation of a certain wavelength from the Earth. Use [QGIS](http://www.qgis.org/en/site/) alongwith this [tutorial](https://github.com/mapbox/workshops/tree/gh-pages/satellite-workshop) to process the bands for analysis.
 
+![](http://blog.imagico.de/wp-content/uploads/2016/07/sat_spectra_full3a.png)
+_Comparison of multispectral EO satellites. From [what satellites see](http://blog.imagico.de/what-satellites-see/) by Cristoph Hormann_
+
 ### Landsat-8
 ![](http://landsat.gsfc.nasa.gov/wp-content/uploads/2015/06/Landsat.v.Sentinel-2.png)
 
