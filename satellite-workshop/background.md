@@ -19,7 +19,7 @@ _Comparison of multispectral EO satellites. From [what satellites see](http://bl
 ### Landsat-8
 ![](http://landsat.gsfc.nasa.gov/wp-content/uploads/2015/06/Landsat.v.Sentinel-2.png)
 
-[Band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/) | [Usage](http://landsat.usgs.gov/best_spectral_bands_to_use.php)
+[Band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/) | [Usage](http://landsat.usgs.gov/best_spectral_bands_to_use.php)| [Handbook](http://landsat.gsfc.nasa.gov/wp-content/uploads/2016/08/Landsat_Improve_Life.pdf)
 
 - Natural Color 4 3 2
 - False Color (urban) 7 6 4
