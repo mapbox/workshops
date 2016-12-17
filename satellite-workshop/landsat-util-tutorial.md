@@ -1,6 +1,6 @@
 # Comparing vegetation cover using Landsat
 
-This tutorial uses a command line tool called [landsat-util](https://pythonhosted.org/landsat-util/) to download and process the infrared satellite imagery of a place at two different time intrevals and compare them in qgis.
+This tutorial uses a command line tool called [landsat-util](https://pythonhosted.org/landsat-util/) to download and process the infrared satellite imagery of a place at two different time intrevals and compare them in qgis. We will compare the vegetation loss over the Indian city of [Vishakapatnam]() after [cyclone Hudhud](https://en.wikipedia.org/wiki/Cyclone_Hudhud) destroyed most of the city's tree cover.
 
 ## Setup
 
@@ -9,5 +9,5 @@ This tutorial uses a command line tool called [landsat-util](https://pythonhoste
 
 ## Find the imagery 
 
-- Use https://remotepixel.ca/projects/satellitesearch.html to find the scene ids of the imagery you want eg. `
-LC81410482013322LGN00`
+- Use https://remotepixel.ca/projects/satellitesearch.html to browse to Vishakapatnam 
+- Open the latest image in the sidebar and shortlist the scene ids of the imagery with minimum cloud cover before and after the cyclone (October 2014) eg. before: `LC81410482013322LGN00` after:`LC81410482015056LGN00`
