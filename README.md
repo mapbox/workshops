@@ -8,3 +8,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 1. [Geography game with Mapbox GL](geography-game) at Mapbox, Bangalore on 2016-04-21.
 2. [BMTC Bus Stop Finder with Mapbox GL JS](mapbox-gl-js/) at Mapbox, Bangalore on 2016-03-31.
 3. [Satellite Workshop](satellite-workshop) at Mapbox, Bangalore on 2016-06-24.
+4. [Satellite Workshop 2](satellite-workshop-2) at Mapbox, Bangalore on 2016-12-16
