@@ -1,4 +1,4 @@
-### Introduction to QGIS
+# Introduction to QGIS
 
 For anyone who is new to QGIS, you can find tutorials [here](http://www.qgistutorials.com/en/) and references from our [previous workshop](https://github.com/mapbox/workshops/tree/gh-pages/satellite-workshop) to help you getting started.
 
@@ -107,7 +107,7 @@ rio color 432-clipped.TIF bangalore.TIF sigmoidal RGB 5 0.5
 
 These edits are pretty tame, but feel free to go crazy! Check out the [documentation](https://github.com/mapbox/rio-color#command-line-interface) for some ideas.
 
-## Other data resources
+## Open Imagery data sources
 
 - [Landsat-8](https://landsatonaws.com/)
 
