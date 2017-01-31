@@ -6,7 +6,7 @@ Presentation link--> [FOSS4G_presentation.pdf](https://github.com/mapbox/hey/fil
 
 ## Workshop Description:
 
-![stellite_workshop](https://cloud.githubusercontent.com/assets/13744156/16257213/a3d8f512-3874-11e6-97cd-83344f1c39a3.png)
+![screen shot 2017-01-31 at 2 46 38 pm](https://cloud.githubusercontent.com/assets/8401827/22458839/4d2ff6fc-e7c4-11e6-9810-410f42e878d2.png)
 
 
 An introductory session on satellite imagery processing. In this hands-on workshop, we’ll introduce you to open satellite datasets, and teach you basics of image processing using open source tools. We will share real world examples on how to leverage open satellite imagery in digitize critical infrastructure, support disaster response efforts, and tell compelling stories. We'll introduce you to the world of design using Mapbox studio and help you to create a web application using Mapbox GL JS libraries. 
