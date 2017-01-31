@@ -2,7 +2,7 @@
 
 An introductory hands-on workshop on processing and analyzing satellite imagery for urban growth and vegetation cover in Hyderabad city.
 
-Presentation link--> https://www.dropbox.com/s/nr2j9mpr8qgzcdn/FOSS4G_presentation.key?dl=0
+Presentation link--> [FOSS4G_presentation.pdf](https://github.com/mapbox/hey/files/741285/FOSS4G_presentation.pdf)
 
 ## Workshop Description:
 
