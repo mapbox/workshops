@@ -6,6 +6,12 @@ Event page: [Mapbox](https://bit.ly/mapbox-branding-workshop), [Facebook](https:
 
 -------
 
+Download Presentation: [Keynote (~71MB, with videos)](https://github.com/mapbox/workshops/raw/gh-pages/branding-workshop/Workshop%20-%20Custom%20Maps%20for%20Brands.key), [PDF (~46MB, without videos)](https://github.com/mapbox/workshops/raw/gh-pages/branding-workshop/Workshop%20-%20Custom%20Maps%20for%20Brands.pdf)
+
+[Watch Fb Live video here (~2.5hrs long)](https://www.facebook.com/Mapboxblr/videos/685615934950733/)
+
+-------
+
 
 ## Getting started
 
