@@ -10,3 +10,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 3. [Satellite Workshop](satellite-workshop) at Mapbox, Bangalore on 2016-06-24.
 4. [Satellite Workshop 2](satellite-workshop-2) at Mapbox, Bangalore on 2016-12-16.
 5. [FOSS4G](https://github.com/mapbox/workshops/tree/gh-pages/FOSS4G) at IIIT, Hyderabad for FOSS4G Asia on 2017-01-26.
+6. [FOSSGIS 2017](https://github.com/mapbox/workshops/tree/gh-pages/FOSSGIS/2017), Passau for FOSSGIS Germany on 2017-03-23.
