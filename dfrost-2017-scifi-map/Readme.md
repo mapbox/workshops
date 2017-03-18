@@ -92,7 +92,7 @@ Create a new style from New Styles, and select **Basic** template.
 
 ### Style roads
 
-<img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2008.13.02.png">
+<img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2012.34.10.png">
 
 - Select the layers `bridge_major`, `road_major`, `tunnel_major`
 - Change the `color` to <span class='color-swatch' style='background-color:#6A66DB'>#6A66DB</span>
