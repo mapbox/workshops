@@ -3,6 +3,7 @@
 **18th March, 2017** | **2PM — 4PM** | **National Institute of Design, Bangalore**
 
 Download the [workshop resources](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources.zip).
+
 Download the presentation: [Keynote (With videos, 76 MB)](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20-%20Dfrost%202017.key), [PDF (Without videos, 46 MB)](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20-%20Dfrost%202017.pdf)
 
 ## Getting started
@@ -12,9 +13,6 @@ Here are a few resources you'll need before getting started:
 - **Mapbox account**: Sign up for free at [Mapbox.com](https://www.mapbox.com/studio/signup/).
 - **Quick intro to Mapbox Studio**: While we’ll cover most topics in this workshop, here’s a [glimpse of how Mapbox Studio is structured](https://www.mapbox.com/help/studio-manual/).
 - **Style guidelines**: Although not necessary, it is often helpful to start with some broad style guidelines, or a set of colors when creating a custom map style. 
-
-**Final result**
-<img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2010.04.29.png">
 
 **Colors for this workshop:**
 
@@ -26,7 +24,12 @@ Here are a few resources you'll need before getting started:
 - <span class='color-swatch' style='background-color:#6A66DB'>#6A66DB</span>
 - <span class='color-swatch' style='background-color:#908DE7'>#908DE7</span>
 
-_* Tip: You can quickly jump to a step by uploading the style.json and assets of different stages, find them in [workshop resources](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/map-style-steps)
+_* Tip: You can quickly jump to a step by uploading the style.json and assets of different stages, find them in [workshop resources](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/map-style-steps)_
+
+
+## Final result
+<img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2010.04.29.png">
+
 
 ## Create a new style
 
@@ -135,7 +138,7 @@ Create a new style from New Styles, and select **Basic** template.
 - Show more Point of Interests so maki icons show up: Update the filters in poi_label by going to `Select Data` and changing the `localrank` to `less than 25` and the `scalerank` to `less than 5`
 - To read more about what these are, and how the Mapbox data is structured, refer to the [Mapbox Streets Vector Tile reference](https://www.mapbox.com/vector-tiles/mapbox-streets-v7/) and the [OSM wiki](http://wiki.openstreetmap.org/wiki/Key:highway)
 
-### More tutorials and help
+## More tutorials and help
 - Check out the [Mapbox Studio Manual](https://www.mapbox.com/help/studio-manual/) for more guides
 - Check out the [Mapbox GL JS examples](https://www.mapbox.com/mapbox-gl-js/examples/) to see how to make these maps interactive
 
