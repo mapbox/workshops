@@ -1,8 +1,9 @@
 # Futuristic Map Design workshop at Dfrost 2017
 
-Held at **National Institute of Design, Bangalore** | On **18th March, 2017**
+**18th March, 2017** | **2PM — 4PM** | **National Institute of Design, Bangalore**
 
-Download the [workshop resources](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources.zip)
+Download the [workshop resources](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources.zip).
+Download the presentation: [Keynote (With videos, 76 MB)](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20-%20Dfrost%202017.key), [PDF (Without videos, 46 MB)](https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20-%20Dfrost%202017.pdf)
 
 ## Getting started
 
@@ -12,7 +13,10 @@ Here are a few resources you'll need before getting started:
 - **Quick intro to Mapbox Studio**: While we’ll cover most topics in this workshop, here’s a [glimpse of how Mapbox Studio is structured](https://www.mapbox.com/help/studio-manual/).
 - **Style guidelines**: Although not necessary, it is often helpful to start with some broad style guidelines, or a set of colors when creating a custom map style. 
 
-**Colors for today’s workshop:**
+**Final result**
+<img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2010.04.29.png">
+
+**Colors for this workshop:**
 
 - <span class='color-swatch' style='background-color:#000011'>#000011</span>
 - <span class='color-swatch' style='background-color:#121132'>#121132</span>
