@@ -22,6 +22,7 @@ Here are a few resources you'll need before getting started:
 - <span class='color-swatch' style='background-color:#6A66DB'>#6A66DB</span>
 - <span class='color-swatch' style='background-color:#908DE7'>#908DE7</span>
 
+_* Tip: You can quickly jump to a step by uploading the style.json and assets of different stages, find them in [workshop resources](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/map-style-steps)
 
 ## Create a new style
 
@@ -118,8 +119,8 @@ Create a new style from New Styles, and select **Basic** template.
 
 <img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2008.56.52.png">
 
-- Create a custom maki icon set using the [Maki Editor](https://www.mapbox.com/maki-icons/editor/)
-- Create a few custom patterns using [Hero Patterns](http://www.heropatterns.com/)
+- Create a custom maki icon set using the [Maki Editor](https://www.mapbox.com/maki-icons/editor/) (One custom maki icon set is in [workshop resources](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources))
+- Create a few custom patterns using [Hero Patterns](http://www.heropatterns.com/) (A few edited hero patterns are in [workshop resources](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources))
 - Upload all of them to Mapbox Studio
 
 ### Filters
@@ -127,7 +128,7 @@ Create a new style from New Styles, and select **Basic** template.
 
 <img width="1280" src="https://github.com/mapbox/workshops/raw/gh-pages/dfrost-2017-scifi-map/Workshop%20Resources/screenshots/Screenshot%202017-03-18%2008.52.58.png">
 
-- Update the filters in poi_label by going to `Select Data` and changing the `localrank` to `less than 25` and the `scalerank` to `less than 5`
+- Show more Point of Interests so maki icons show up: Update the filters in poi_label by going to `Select Data` and changing the `localrank` to `less than 25` and the `scalerank` to `less than 5`
 - To read more about what these are, and how the Mapbox data is structured, refer to the [Mapbox Streets Vector Tile reference](https://www.mapbox.com/vector-tiles/mapbox-streets-v7/) and the [OSM wiki](http://wiki.openstreetmap.org/wiki/Key:highway)
 
 ### More tutorials and help
