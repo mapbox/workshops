@@ -11,5 +11,5 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 4. [Satellite Workshop 2](satellite-workshop-2) at Mapbox, Bangalore on 2016-12-16.
 5. [FOSS4G](https://github.com/mapbox/workshops/tree/gh-pages/FOSS4G) at IIIT, Hyderabad for FOSS4G Asia on 2017-01-26.
 6. [FOSSGIS 2017](https://github.com/mapbox/workshops/tree/gh-pages/FOSSGIS/2017), Passau for FOSSGIS Germany on 2017-03-23.
-7. [Designing custom maps for your brand](https://github.com/mapbox/workshops/tree/gh-pages/branding-workshop) at Mapbox, Bangalore on 2017-03-03
-8. [Futuristic Map Design workshop at Dfrost 2017](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map) at NID, Bangalore on 2017-03-18
+7. [Designing custom maps for your brand](https://github.com/mapbox/workshops/tree/gh-pages/branding-workshop) at Mapbox, Bangalore on 2017-03-03.
+8. [Futuristic Map Design workshop at Dfrost 2017](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map) at NID, Bangalore on 2017-03-18.
