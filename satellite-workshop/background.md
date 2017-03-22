@@ -33,8 +33,7 @@ _Comparison of multispectral EO satellites. From [what satellites see](http://bl
 - Vegetation Analysis 6 5 4
 
 ### Sentinel-2
-<img width="1202" alt="screenshot 2016-07-09 01 04 44" src="https://cloud.githubusercontent.com/assets/126868/16699332/277277b4-4571-11e6-8e4f-b4d7fc045154.png">
-_[Source](http://www.eurosdr.net/sites/default/files/images/inline/1-2dag_gascon_ws_sentinel.pdf)_
+<img width="1202" alt="screenshot 2016-07-09 01 04 44" src="https://cloud.githubusercontent.com/assets/126868/16699332/277277b4-4571-11e6-8e4f-b4d7fc045154.png"><br>_[Source](http://www.eurosdr.net/sites/default/files/images/inline/1-2dag_gascon_ws_sentinel.pdf)_
 
 [Sentinel-2 Bands](https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial) | [Specification](https://sentinel.esa.int/documents/247904/685211/Sentinel-2+Products+Specification+Document+%28PSD%29/0f7bedeb-9fbb-4b60-91aa-809162de456c)
 
