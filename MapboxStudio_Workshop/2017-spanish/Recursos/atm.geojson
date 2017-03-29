@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-03-23T17:48:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/3084055282",
+      "properties": {
+        "@id": "node/3084055282",
+        "amenity": "atm",
+        "name": "Cajero Multired Banco de la Nación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2236329,
+          -13.1518061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084055283",
+      "properties": {
+        "@id": "node/3084055283",
+        "amenity": "atm",
+        "name": "Banco de la Nación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2265283,
+          -13.1615179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076770",
+      "properties": {
+        "@id": "node/3084076770",
+        "amenity": "atm",
+        "name": "Banco Interbank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2260908,
+          -13.1588721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076777",
+      "properties": {
+        "@id": "node/3084076777",
+        "amenity": "atm",
+        "name": "GlobalNet Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.224897,
+          -13.1582392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076778",
+      "properties": {
+        "@id": "node/3084076778",
+        "amenity": "atm",
+        "name": "GlobalNet Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2260757,
+          -13.1609642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084636514",
+      "properties": {
+        "@id": "node/3084636514",
+        "amenity": "atm",
+        "name": "GlobalNet Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2271334,
+          -13.1607399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084938887",
+      "properties": {
+        "@id": "node/3084938887",
+        "amenity": "atm",
+        "name": "Multired"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2249222,
+          -13.1457051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085141261",
+      "properties": {
+        "@id": "node/3085141261",
+        "amenity": "atm",
+        "name": "GlobalNet Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2219691,
+          -13.1581781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085228484",
+      "properties": {
+        "@id": "node/3085228484",
+        "amenity": "atm",
+        "name": "Banco de la Nación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2266251,
+          -13.159656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086292055",
+      "properties": {
+        "@id": "node/3086292055",
+        "amenity": "atm",
+        "name": "GlobalNet Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2251767,
+          -13.1624151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091402269",
+      "properties": {
+        "@id": "node/3091402269",
+        "amenity": "atm",
+        "name": "GlobalNet Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2309253,
+          -13.1343992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091402288",
+      "properties": {
+        "@id": "node/3091402288",
+        "amenity": "atm",
+        "brand": "Redbank",
+        "designation": "Cajero automático",
+        "operator": "Bancoestado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2311423,
+          -13.1344789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091434663",
+      "properties": {
+        "@id": "node/3091434663",
+        "amenity": "atm",
+        "brand": "Banco de la Nacion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2262211,
+          -13.1757619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3092567613",
+      "properties": {
+        "@id": "node/3092567613",
+        "amenity": "atm",
+        "name": "BCP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2063514,
+          -13.1536297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717415983",
+      "properties": {
+        "@id": "node/3717415983",
+        "amenity": "atm",
+        "name": "Cajero Multired Banco de la Nación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2139263,
+          -13.1551714
+        ]
+      }
+    }
+  ]
+}
