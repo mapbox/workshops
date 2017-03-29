@@ -13,4 +13,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 6. [FOSSGIS 2017](https://github.com/mapbox/workshops/tree/gh-pages/FOSSGIS/2017), Passau for FOSSGIS Germany on 2017-03-23.
 7. [Designing custom maps for your brand](https://github.com/mapbox/workshops/tree/gh-pages/branding-workshop) at Mapbox, Bangalore on 2017-03-03.
 8. [Futuristic Map Design workshop at Dfrost 2017](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map) at NID, Bangalore on 2017-03-18.
-9. [Workshop Mapbox Studio in spanish](https://github.com/mapbox/workshops/tree/gh-pages/) at Mapbox, Ayacucho-Perú on 2017-03-25.
+9. [Workshop Mapbox Studio in spanish](https://github.com/mapbox/workshops/tree/gh-pages/MapboxStudio_Workshop/2017-spanish) at Mapbox, Ayacucho-Perú on 2017-03-25.
