@@ -1,0 +1,2967 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-04-10T12:50:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/4177089028",
+      "properties": {
+        "@id": "node/4177089028",
+        "addr:hamlet": "Chumande 2",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2942152,
+          -17.9058212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089030",
+      "properties": {
+        "@id": "node/4177089030",
+        "addr:hamlet": "Siamalonga",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2950009,
+          -17.9080738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089031",
+      "properties": {
+        "@id": "node/4177089031",
+        "addr:hamlet": "Siamalonga",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2950237,
+          -17.9081006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089033",
+      "properties": {
+        "@id": "node/4177089033",
+        "addr:city": "SIAMWINDE 2",
+        "addr:hamlet": "KATALILA",
+        "addr:subdistrict": "SIACHILABA",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2777867,
+          -17.9083049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089034",
+      "properties": {
+        "@id": "node/4177089034",
+        "addr:city": "SIAMWINDE 2",
+        "addr:hamlet": "KATALILA",
+        "addr:subdistrict": "SIACHILABA",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2o14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2796321,
+          -17.9099383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089035",
+      "properties": {
+        "@id": "node/4177089035",
+        "addr:hamlet": "Siamwinde 1",
+        "amenity": "toilets",
+        "hh_served": "8",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2942613,
+          -17.9100803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089041",
+      "properties": {
+        "@id": "node/4177089041",
+        "addr:city": "SIACHILABA",
+        "addr:hamlet": "SIAMWINDE 1",
+        "addr:subdistrict": "SIACHILABA",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2842407,
+          -17.9122342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089043",
+      "properties": {
+        "@id": "node/4177089043",
+        "addr:city": "SIAMWINDE 2",
+        "addr:hamlet": "KATALILA",
+        "addr:subdistrict": "SIACHILABA",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2783446,
+          -17.9125518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4177089044",
+      "properties": {
+        "@id": "node/4177089044",
+        "addr:hamlet": "Sibanyathi 1",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2926924,
+          -17.9158322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179578771",
+      "properties": {
+        "@id": "node/4179578771",
+        "addr:city": "Saba",
+        "addr:hamlet": "MAMPATA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1424366,
+          -17.9695353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179578775",
+      "properties": {
+        "@id": "node/4179578775",
+        "addr:city": "Saba",
+        "addr:hamlet": "MAMPATA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1474294,
+          -17.9749257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179578776",
+      "properties": {
+        "@id": "node/4179578776",
+        "addr:city": "Saba",
+        "addr:hamlet": "MAMPATA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "23",
+        "operator": "church",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1455124,
+          -17.9765488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179578777",
+      "properties": {
+        "@id": "node/4179578777",
+        "addr:city": "Saba",
+        "addr:hamlet": "MAMPATA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "church",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1455966,
+          -17.9767091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179578779",
+      "properties": {
+        "@id": "node/4179578779",
+        "addr:city": "Saba",
+        "addr:hamlet": "MAMPATA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1435876,
+          -17.9803323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179578780",
+      "properties": {
+        "@id": "node/4179578780",
+        "addr:city": "Saba",
+        "addr:hamlet": "CHABUMBULUKWA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "4",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1339889,
+          -17.9837824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590198",
+      "properties": {
+        "@id": "node/4179590198",
+        "addr:city": "Saba",
+        "addr:hamlet": "CHABUMBULUKWA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1432793,
+          -17.9903946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590203",
+      "properties": {
+        "@id": "node/4179590203",
+        "addr:city": "Saba",
+        "addr:hamlet": "CHABUMBULUKWA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.119667,
+          -17.9899251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590207",
+      "properties": {
+        "@id": "node/4179590207",
+        "addr:city": "Saba",
+        "addr:hamlet": "CHABUMBULUKWA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "6",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1250988,
+          -17.9918974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590212",
+      "properties": {
+        "@id": "node/4179590212",
+        "addr:city": "Saba",
+        "addr:hamlet": "CHABUMBULUKWA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1222363,
+          -17.9921367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590214",
+      "properties": {
+        "@id": "node/4179590214",
+        "addr:city": "Saba",
+        "addr:hamlet": "CHABUMBULUKWA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1402247,
+          -17.9922781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590225",
+      "properties": {
+        "@id": "node/4179590225",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1507322,
+          -17.9956031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590229",
+      "properties": {
+        "@id": "node/4179590229",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1477831,
+          -17.9965738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590234",
+      "properties": {
+        "@id": "node/4179590234",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.148262,
+          -17.9986835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590246",
+      "properties": {
+        "@id": "node/4179590246",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "5",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1446711,
+          -18.003324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590249",
+      "properties": {
+        "@id": "node/4179590249",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1441533,
+          -18.0035499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590252",
+      "properties": {
+        "@id": "node/4179590252",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "8",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1452868,
+          -18.0041548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590258",
+      "properties": {
+        "@id": "node/4179590258",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1995"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1432957,
+          -18.0043836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590259",
+      "properties": {
+        "@id": "node/4179590259",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1472033,
+          -18.0049164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590262",
+      "properties": {
+        "@id": "node/4179590262",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1465315,
+          -18.0055688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590263",
+      "properties": {
+        "@id": "node/4179590263",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1465683,
+          -18.0056274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590269",
+      "properties": {
+        "@id": "node/4179590269",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1309277,
+          -18.0085163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590271",
+      "properties": {
+        "@id": "node/4179590271",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.13098,
+          -18.0085686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590274",
+      "properties": {
+        "@id": "node/4179590274",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1391136,
+          -18.0094529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590283",
+      "properties": {
+        "@id": "node/4179590283",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.138737,
+          -18.0110276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179590287",
+      "properties": {
+        "@id": "node/4179590287",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1319845,
+          -18.0121435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592491",
+      "properties": {
+        "@id": "node/4179592491",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1320409,
+          -18.013146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592499",
+      "properties": {
+        "@id": "node/4179592499",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1358925,
+          -18.0139941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592501",
+      "properties": {
+        "@id": "node/4179592501",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2815"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1270298,
+          -18.0142313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592502",
+      "properties": {
+        "@id": "node/4179592502",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1260062,
+          -18.0145272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592503",
+      "properties": {
+        "@id": "node/4179592503",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1259362,
+          -18.0145291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592505",
+      "properties": {
+        "@id": "node/4179592505",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "9",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1231047,
+          -18.0149506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592506",
+      "properties": {
+        "@id": "node/4179592506",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "9",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1231713,
+          -18.0151511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592508",
+      "properties": {
+        "@id": "node/4179592508",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1340311,
+          -18.0160066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592509",
+      "properties": {
+        "@id": "node/4179592509",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1341316,
+          -18.0160181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592510",
+      "properties": {
+        "@id": "node/4179592510",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.134015,
+          -18.0160474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592511",
+      "properties": {
+        "@id": "node/4179592511",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1341477,
+          -18.0160614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592512",
+      "properties": {
+        "@id": "node/4179592512",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "4",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1388443,
+          -18.0160767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592513",
+      "properties": {
+        "@id": "node/4179592513",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1361554,
+          -18.0165282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592516",
+      "properties": {
+        "@id": "node/4179592516",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABILA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "4",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1415305,
+          -18.017875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592518",
+      "properties": {
+        "@id": "node/4179592518",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1156872,
+          -18.0258522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592524",
+      "properties": {
+        "@id": "node/4179592524",
+        "addr:city": "Saba",
+        "addr:hamlet": "KABALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1189863,
+          -18.0280362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592530",
+      "properties": {
+        "@id": "node/4179592530",
+        "addr:city": "Chemba",
+        "addr:hamlet": "CHUMBA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.116692,
+          -18.0401111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592532",
+      "properties": {
+        "@id": "node/4179592532",
+        "addr:city": "Chemba",
+        "addr:hamlet": "CHUMBA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1112223,
+          -18.0450683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592534",
+      "properties": {
+        "@id": "node/4179592534",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1041225,
+          -18.0622617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592535",
+      "properties": {
+        "@id": "node/4179592535",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1040581,
+          -18.0629235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592538",
+      "properties": {
+        "@id": "node/4179592538",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "4",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1019321,
+          -18.0668739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592539",
+      "properties": {
+        "@id": "node/4179592539",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1018565,
+          -18.0668979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592540",
+      "properties": {
+        "@id": "node/4179592540",
+        "addr:city": "Chemba",
+        "addr:hamlet": "CHEMBA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "10",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0955001,
+          -18.0705878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592541",
+      "properties": {
+        "@id": "node/4179592541",
+        "addr:city": "Chemba",
+        "addr:hamlet": "CHEMBA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "10",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0953254,
+          -18.0710316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592542",
+      "properties": {
+        "@id": "node/4179592542",
+        "addr:city": "Chemba",
+        "addr:hamlet": "CHEMBA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "16",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0987083,
+          -18.0714378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4179592547",
+      "properties": {
+        "@id": "node/4179592547",
+        "addr:city": "Chemba",
+        "addr:hamlet": "CHEMBA",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0956549,
+          -18.0732286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464564",
+      "properties": {
+        "@id": "node/4192464564",
+        "addr:city": "Saba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1024561,
+          -18.0363664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464566",
+      "properties": {
+        "@id": "node/4192464566",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0926949,
+          -18.0480944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464567",
+      "properties": {
+        "@id": "node/4192464567",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0926644,
+          -18.0481176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464570",
+      "properties": {
+        "@id": "node/4192464570",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0966411,
+          -18.0492557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464573",
+      "properties": {
+        "@id": "node/4192464573",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1040223,
+          -18.0623252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464574",
+      "properties": {
+        "@id": "node/4192464574",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1040702,
+          -18.0629273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464576",
+      "properties": {
+        "@id": "node/4192464576",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.084048,
+          -18.0672515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464580",
+      "properties": {
+        "@id": "node/4192464580",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "20",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1994"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.094746,
+          -18.0690417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464582",
+      "properties": {
+        "@id": "node/4192464582",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0924034,
+          -18.0692812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464583",
+      "properties": {
+        "@id": "node/4192464583",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.092572,
+          -18.071264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464586",
+      "properties": {
+        "@id": "node/4192464586",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0909288,
+          -18.0734069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192464588",
+      "properties": {
+        "@id": "node/4192464588",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0676851,
+          -18.0775915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465591",
+      "properties": {
+        "@id": "node/4192465591",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0664793,
+          -18.0790592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465594",
+      "properties": {
+        "@id": "node/4192465594",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0612788,
+          -18.0792233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465595",
+      "properties": {
+        "@id": "node/4192465595",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "6",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0696764,
+          -18.0792876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465596",
+      "properties": {
+        "@id": "node/4192465596",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0756188,
+          -18.0823185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465597",
+      "properties": {
+        "@id": "node/4192465597",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0782907,
+          -18.0836433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465598",
+      "properties": {
+        "@id": "node/4192465598",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0772219,
+          -18.0836497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465601",
+      "properties": {
+        "@id": "node/4192465601",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0523012,
+          -18.084758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465602",
+      "properties": {
+        "@id": "node/4192465602",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0522623,
+          -18.0847861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465603",
+      "properties": {
+        "@id": "node/4192465603",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0522609,
+          -18.0848422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465605",
+      "properties": {
+        "@id": "node/4192465605",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0522421,
+          -18.0848817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465609",
+      "properties": {
+        "@id": "node/4192465609",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0645593,
+          -18.0895238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465610",
+      "properties": {
+        "@id": "node/4192465610",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0644614,
+          -18.0895251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465611",
+      "properties": {
+        "@id": "node/4192465611",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0729961,
+          -18.0902954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465613",
+      "properties": {
+        "@id": "node/4192465613",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0839506,
+          -18.0933517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465617",
+      "properties": {
+        "@id": "node/4192465617",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1982"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0735312,
+          -18.0943989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465618",
+      "properties": {
+        "@id": "node/4192465618",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0742178,
+          -18.0944193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465619",
+      "properties": {
+        "@id": "node/4192465619",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0736814,
+          -18.0944397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465625",
+      "properties": {
+        "@id": "node/4192465625",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0727386,
+          -18.0951893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465626",
+      "properties": {
+        "@id": "node/4192465626",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "5",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0825733,
+          -18.0952077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465628",
+      "properties": {
+        "@id": "node/4192465628",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0774564,
+          -18.0952928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465629",
+      "properties": {
+        "@id": "node/4192465629",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0726956,
+          -18.0953882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465630",
+      "properties": {
+        "@id": "node/4192465630",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "KANKONDE 1",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0791956,
+          -18.0954126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465631",
+      "properties": {
+        "@id": "node/4192465631",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0774816,
+          -18.0954845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465632",
+      "properties": {
+        "@id": "node/4192465632",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0791452,
+          -18.0955084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465633",
+      "properties": {
+        "@id": "node/4192465633",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0728445,
+          -18.0956227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465634",
+      "properties": {
+        "@id": "node/4192465634",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0773303,
+          -18.0956282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465639",
+      "properties": {
+        "@id": "node/4192465639",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "school",
+        "operator": "school",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0722651,
+          -18.0962142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465641",
+      "properties": {
+        "@id": "node/4192465641",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0818928,
+          -18.0973533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465642",
+      "properties": {
+        "@id": "node/4192465642",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0816911,
+          -18.0974971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465643",
+      "properties": {
+        "@id": "node/4192465643",
+        "addr:city": "Saba",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "shop_owner",
+        "source": "\"Red Cross Field Survey\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0739818,
+          -18.0974992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465644",
+      "properties": {
+        "@id": "node/4192465644",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "shop_owner",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0739603,
+          -18.09754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465645",
+      "properties": {
+        "@id": "node/4192465645",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0418965,
+          -18.0977981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465646",
+      "properties": {
+        "@id": "node/4192465646",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0417768,
+          -18.0978181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465648",
+      "properties": {
+        "@id": "node/4192465648",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0417916,
+          -18.097929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465649",
+      "properties": {
+        "@id": "node/4192465649",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0420657,
+          -18.097933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465651",
+      "properties": {
+        "@id": "node/4192465651",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0752382,
+          -18.0986232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465652",
+      "properties": {
+        "@id": "node/4192465652",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0751878,
+          -18.0988628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465653",
+      "properties": {
+        "@id": "node/4192465653",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0763969,
+          -18.099238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465655",
+      "properties": {
+        "@id": "node/4192465655",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1990"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0786663,
+          -18.1013066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465657",
+      "properties": {
+        "@id": "node/4192465657",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.082366,
+          -18.1020873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465658",
+      "properties": {
+        "@id": "node/4192465658",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "operator": "shop_owner",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0729089,
+          -18.1033732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465659",
+      "properties": {
+        "@id": "node/4192465659",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "shop_owner",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0730162,
+          -18.1035771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465660",
+      "properties": {
+        "@id": "node/4192465660",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0907907,
+          -18.1057151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465664",
+      "properties": {
+        "@id": "node/4192465664",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0906899,
+          -18.1060097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465667",
+      "properties": {
+        "@id": "node/4192465667",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0762213,
+          -18.107488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465668",
+      "properties": {
+        "@id": "node/4192465668",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "3",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.075944,
+          -18.1075119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465673",
+      "properties": {
+        "@id": "node/4192465673",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.074482,
+          -18.1089734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465675",
+      "properties": {
+        "@id": "node/4192465675",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.084968,
+          -18.1098119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465677",
+      "properties": {
+        "@id": "node/4192465677",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "community",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0879928,
+          -18.1107942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465681",
+      "properties": {
+        "@id": "node/4192465681",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0555376,
+          -18.117666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4192465682",
+      "properties": {
+        "@id": "node/4192465682",
+        "addr:city": "Saba",
+        "addr:hamlet": "SICHIMVWALI",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0703125,
+          -18.1197296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509106",
+      "properties": {
+        "@id": "node/4193509106",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1941322,
+          -18.0846871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509108",
+      "properties": {
+        "@id": "node/4193509108",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "2",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2038819,
+          -18.0906246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509109",
+      "properties": {
+        "@id": "node/4193509109",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "\"Kenjobo Primary School\"",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1870885,
+          -18.0927412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509110",
+      "properties": {
+        "@id": "node/4193509110",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "\"Kenjobo Primary School\"",
+        "operator": "\"Non-Red Cross Org\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1871501,
+          -18.0927997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509111",
+      "properties": {
+        "@id": "node/4193509111",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1656548,
+          -18.0970187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509112",
+      "properties": {
+        "@id": "node/4193509112",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1816103,
+          -18.098241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509113",
+      "properties": {
+        "@id": "node/4193509113",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1662368,
+          -18.1056166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509115",
+      "properties": {
+        "@id": "node/4193509115",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2011841,
+          -18.1204725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509116",
+      "properties": {
+        "@id": "node/4193509116",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1775128,
+          -18.1230173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4193509117",
+      "properties": {
+        "@id": "node/4193509117",
+        "addr:city": "Chemba",
+        "addr:hamlet": "KENJOBO",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1776134,
+          -18.1230364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4198016684",
+      "properties": {
+        "@id": "node/4198016684",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1139045,
+          -18.0261801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4254392741",
+      "properties": {
+        "@id": "node/4254392741",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "toilets",
+        "hh_served": "1",
+        "operator": "\"Red Cross\"",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0828599,
+          -18.0937066
+        ]
+      }
+    }
+  ]
+}
