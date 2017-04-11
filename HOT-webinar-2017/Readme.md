@@ -2,7 +2,9 @@
 
 **11th March, 2017** | **HOT Webinar**
 
-Download the presentation: [Keynote (With videos)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Webinar%20-%20HOT%20%5BApr%202017%5D.key), [PDF (Without videos)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Webinar%20-%20HOT%20%5BApr%202017%5D.pdf) | [Custom Map Design inspiration](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Custom%20Map%20Designs.pdf)
+Download the presentation: [Keynote (With videos)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Webinar%20-%20HOT%20%5BApr%202017%5D.key), [PDF (Without videos)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Webinar%20-%20HOT%20%5BApr%202017%5D.pdf) | [Custom Map Design deck (PDF)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Custom%20Map%20Designs.pdf)
+
+[Video on Youtube](https://www.youtube.com/watch?v=yvzqS0NaD2I&feature=youtu.be)
 
 ## Introduction
 
