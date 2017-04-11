@@ -17,6 +17,8 @@ You’ll only need to sign up to a Mapbox account at [Mapbox.com](https://www.ma
 
 ## Finding a theme
 
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/1.png)
+
 Most often, you would have a dataset (in the form of a .csv, .geojson or other common geo-based data formats). For this webinar, we’ll start from scratch, and use data from OpenStreetMap.
 
 Find a particular type of data (OSM tags) you want to use. We’ll use hospitals & clinics, details of which can be found on the [OSM wiki page](http://wiki.osm.org/) for [hospitals](http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital).
@@ -24,6 +26,8 @@ Find a particular type of data (OSM tags) you want to use. We’ll use hospitals
 These are defined as `amenity="hospital"` and `amenity="clinic"`.
 
 ## Extracting data from OSM
+
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/2.png)
 
 We’ll use [Overpass Turbo](https://overpass-turbo.eu/), that can allow us to zoom to a particular area on the map, and query for specific OSM features.
 
@@ -40,11 +44,15 @@ Tip: For complex queries, here’s a [quick introductory guide](https://github.c
 
 ## Adding data to Mapbox Studio
 
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/3.png)
+
 Next, we’ll open [Mapbox Studio](https://www.mapbox.com/studio/). If you want to have an editable copy of the dataset, or want to create a dataset from scratch, you can use the Dataset Editor to create the dataset, and then export that as a tileset. In this case, we don’t want to edit the data, so we’ll directly create a tileset with this data by uploading it. 
 
 Tip: You can read more about when to use Dataset Editor and when to directly use Tilesets in this [Mapbox Manual guide](https://www.mapbox.com/help/studio-manual-uploads/).
 
 ## Styling the data
+
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/4.png)
 
 With the tileset ready, we’ll add it to a new map style. 
 
@@ -63,6 +71,8 @@ With the tileset ready, we’ll add it to a new map style.
 
 ## Filtering data
 
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/5.png)
+
 We’ll create some distinction between the hospitals & clinics by making different layers for each.
 
 - Select your layer, and go to `Select data` tab
@@ -74,6 +84,8 @@ We’ll create some distinction between the hospitals & clinics by making differ
 
 ## Publishing the map style
 
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/6.png)
+
 Once we’re happy with the style, we can `Publish` the style so it can be shared with others, or used for building more interactive maps.
 
 - Click `Publish`, and review the changes
@@ -82,6 +94,8 @@ Once we’re happy with the style, we can `Publish` the style so it can be share
 
 
 ## Adding interactivity
+
+![](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Screenshots/7.png)
 
 Check out the [Mapbox GL JS examples](https://www.mapbox.com/mapbox-gl-js/examples/) to see how to make these maps interactive. We’ll start with two examples for this webinar.
 
