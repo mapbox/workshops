@@ -2,7 +2,15 @@
 
 **11th March, 2017** | **HOT Webinar**
 
-Download the presentation: [Keynote (With videos)](), [PDF (Without videos)]()
+Download the presentation: [Keynote (With videos)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Webinar%20-%20HOT%20%5BApr%202017%5D.key), [PDF (Without videos)](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Webinar%20-%20HOT%20%5BApr%202017%5D.pdf) | [Custom Map Design inspiration](https://github.com/mapbox/workshops/raw/gh-pages/HOT-webinar-2017/Custom%20Map%20Designs.pdf)
+
+## Introduction
+
+Many Humanitarian OpenStreetMap (HOT) projects involve either using existing OSM data on the field, or contributing to improving existing OSM data. How can we highlight and share such contributions through an interactive medium?
+
+In this webinar, we will walk through a typical workflow to achieve this using a mix of open source tools, Mapbox Studio & very basic front-end technology. We will be using Overpass Turbo to extract specific OSM datasets that we need, uploading them to Mapbox Studio, creating a custom map layer with control over how to visualize this data, and then adding basic interactivity (like hover for details, toggle to show/hide layers etc.) using Mapbox GL JS.
+
+More details on the [Eventbrite page](https://www.eventbrite.com/e/hot-community-webinar-getting-started-with-mapbox-studio-tickets-33508374450).
 
 ## Getting started
 
