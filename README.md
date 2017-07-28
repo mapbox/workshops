@@ -15,3 +15,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 8. [Futuristic Map Design workshop at Dfrost 2017](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map) at NID, Bangalore on 2017-03-18.
 9. [Mapbox Studio Webinar for HOT community](https://github.com/mapbox/workshops/tree/gh-pages/HOT-webinar-2017) conducted online as part of HOT webinar series on 2017-03-11.
 10. [Workshop Mapbox Studio in spanish](https://github.com/mapbox/workshops/tree/gh-pages/MapboxStudio_Workshop/2017-spanish) at Mapbox, Ayacucho-Perú on 2017-03-25.
+11. [HOT Mapathon Bangalore](https://github.com/mapbox/workshops/tree/gh-pages/HOT-Mapathon-Bangalore-July-2017) at Mapbox, Bangalore on 2017-07-21.
