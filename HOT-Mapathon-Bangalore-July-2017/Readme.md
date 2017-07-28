@@ -16,7 +16,7 @@
 - [Facebook video from the event](https://www.facebook.com/Mapboxblr/videos/757191171126542/): ~40 mins
 - [Event page](https://www.mapbox.com/events/hot-mapathon-blr/)
 - [Facebook page](https://www.facebook.com/events/126898634578178)
-- [Presentation deck]() [pdf format]
+- [Presentation deck](https://github.com/mapbox/workshops/blob/gh-pages/HOT-Mapathon-Bangalore-July-2017/hotmapathon.pdf) [pdf format]
 
 ---
 
