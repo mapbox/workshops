@@ -109,8 +109,8 @@ We’ll use [Overpass Turbo](https://overpass-turbo.eu/), that can allow us to z
 We can start by zooming in to Ottawa (or searching for Ottawa), and using the `Wizard` option to create queries:
 
 - Start with `amenity="hospital"` ([Result](http://overpass-turbo.eu/s/qMF))
-- We can restrict the search to a location (city, country etc.) — Try using `amenity="hospital" in "Zimbabwe"` ([Result](http://overpass-turbo.eu/s/oht ))
-- We can include multiple tags using `&&` (and) / `||` (or) operators. Try using `(amenity="hospital" || amenity="clinic") in "Zimbabwe"` ([Result](http://overpass-turbo.eu/s/qMH))
+- We can restrict the search to a location (city, country etc.) — Try using `amenity="hospital" in "Ottawa"` ([Result](http://overpass-turbo.eu/s/oht ))
+- We can include multiple tags using `&&` (and) / `||` (or) operators. Try using `(amenity="hospital" || amenity="clinic") in "Ottawa"` ([Result](http://overpass-turbo.eu/s/qMH))
 - We’ll zoom to a [province](https://www.openstreetmap.org/relation/4136816) and style that data. Use (amenity="hospital" || amenity="clinic") in "Ottawa" ([Result](http://overpass-turbo.eu/s/qMJ))
 - We can export this data as a `geojson` so we can use this in Mapbox Studio
 
@@ -132,7 +132,7 @@ Tip: You can read more about when to use Dataset Editor and when to directly use
 With the tileset ready, we’ll add it to a new map style.
 
 - Click `Add to style` on the tileset page
-- Give the style a name (like `Hospitals & Clinics in Zimbabwe`) and select `Basic` tempate
+- Give the style a name (like `Hospitals & Clinics in Ottawa`) and select `Basic` tempate
 - In the `New layer` panel, select `Circle` and `Create layer`
 - Play with the style properties, and with other layers
 
