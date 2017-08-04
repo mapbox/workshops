@@ -16,3 +16,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 9. [Mapbox Studio Webinar for HOT community](https://github.com/mapbox/workshops/tree/gh-pages/HOT-webinar-2017) conducted online as part of HOT webinar series on 2017-03-11.
 10. [Workshop Mapbox Studio in spanish](https://github.com/mapbox/workshops/tree/gh-pages/MapboxStudio_Workshop/2017-spanish) at Mapbox, Ayacucho-Perú on 2017-03-25.
 11. [HOT Mapathon Bangalore](https://github.com/mapbox/workshops/tree/gh-pages/HOT-Mapathon-Bangalore-July-2017) at Mapbox, Bangalore on 2017-07-21.
+12. [Ottawa OpenStreetMap meetup](https://github.com/mapbox/workshops/tree/gh-pages/Ottawa-meetup-Aug-2017) at Ottawa, Canada on 2017-08-04.
