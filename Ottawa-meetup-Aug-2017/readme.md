@@ -94,7 +94,7 @@ Create a new style from New Styles, and select **Basic** template.
 
 ![image](https://user-images.githubusercontent.com/371666/28003546-25848824-6547-11e7-97d8-cd94074f8a86.png)
 
-Most often, you would have a dataset (in the form of a .csv, .geojson or other common geo-based data formats). For this webinar, we’ll start from scratch, and use data from OpenStreetMap.
+Most often, you would have a dataset (in the form of a .csv, .geojson or other common geo-based data formats). For this session, we’ll start from scratch, and use data from OpenStreetMap.
 
 Find a particular type of data (OSM tags) you want to use. We’ll use hospitals & clinics, details of which can be found on the [OSM wiki page](http://wiki.osm.org/) for [hospitals](http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital).
 
