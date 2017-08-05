@@ -1,4 +1,7 @@
 # Ottawa meetup, 4th August 2017
+
+Download the presentation: [Keynote (with videos)](https://github.com/mapbox/workshops/blob/gh-pages/Ottawa-meetup-Aug-2017/Ottawa_meetup.key), [PDF without videos](https://github.com/mapbox/workshops/blob/gh-pages/Ottawa-meetup-Aug-2017/Ottawa_meetup.pdf)
+
 ---
 
 ## OSMCha introduction
