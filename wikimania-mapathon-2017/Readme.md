@@ -2,17 +2,14 @@
 
 13th August, 2017 | Wikimania Conference | [Workshop proposal](https://wikimania2017.wikimedia.org/wiki/Submissions/Mapathon!_Contribute_and_connect_OpenStreetMap_and_Wikipedia_using_Wikidata)
 
+---
+
 ### Introduction to OpenStreetMap
 
 [OpenStreetMap — free and open map of the entire world](https://www.openstreetmap.org/)
 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=7sC83j6vzjo" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=7sC83j6vzjo"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![OSM](http://img.youtube.com/vi/7sC83j6vzjo/0.jpg)](https://www.youtube.com/watch?v=7sC83j6vzjo "OSM")
+
 
 #### How does it work technically?
 
@@ -21,20 +18,25 @@
 ### Who is OSM?
 
 - Mappers
+
 ![image](https://user-images.githubusercontent.com/4470913/29123420-5532fd7c-7d33-11e7-9f13-403fdd3390a9.png)
 
 - Companies 
+
 ![image](https://user-images.githubusercontent.com/4470913/29123462-74983538-7d33-11e7-9f6b-992280a24b1c.png)
 
-
 - Governement
+
 ![image](https://user-images.githubusercontent.com/4470913/29123505-99e19d02-7d33-11e7-9df9-a2ba4899492d.png)
 
 - Humanitarian OpenStreetMap Team
+
 ![image](https://user-images.githubusercontent.com/4470913/29123521-aa4c2fe0-7d33-11e7-984d-0118b9b3ed6d.png)
 
 - Academics
+
 ![image](https://user-images.githubusercontent.com/4470913/29123581-e16eb164-7d33-11e7-9e11-a8922c605187.png)
+
 
 #### Different OSM editors
 
@@ -68,20 +70,20 @@
 
  ![image](https://user-images.githubusercontent.com/4470913/29141673-c7f0949e-7d6c-11e7-9e19-b046e72c56cd.png)
 
-	- Post selecting the option, you will find the tags associated to the features updated with the Wikidata and Wikipedia tags
+- Post selecting the option, you will find the tags associated to the features updated with the Wikidata and Wikipedia tags
 
-	![image](https://user-images.githubusercontent.com/4470913/29141732-0b66417e-7d6d-11e7-9bc5-4ac14cac7683.png)
-	_Before adding Wikipedia tag_
+![image](https://user-images.githubusercontent.com/4470913/29141732-0b66417e-7d6d-11e7-9bc5-4ac14cac7683.png)
+_Before adding Wikipedia tag_
 
 
-	![image](https://user-images.githubusercontent.com/4470913/29141779-3cf571c4-7d6d-11e7-9050-34c5bedfeeb5.png)
-	_After adding the Wikipedia tag_
+![image](https://user-images.githubusercontent.com/4470913/29141779-3cf571c4-7d6d-11e7-9050-34c5bedfeeb5.png)
+_After adding the Wikipedia tag_
 
-	- Click on `Save` botton
-	- Add a relevant changeset comment and upload! 💥 
-	Changeset comment -> `Added wikipedia tag #wikimania2017`
+- Click on `Save` botton
+- Add a relevant changeset comment and upload! 💥 
+Changeset comment -> `Added wikipedia tag #wikimania2017`
 
-	![image](https://user-images.githubusercontent.com/4470913/29141851-8f517c24-7d6d-11e7-9f4b-4d81d9bdc46f.png)
+![image](https://user-images.githubusercontent.com/4470913/29141851-8f517c24-7d6d-11e7-9f4b-4d81d9bdc46f.png)
 
 ### Introduction to using Kartographer extension
 
