@@ -73,10 +73,12 @@
 - Post selecting the option, you will find the tags associated to the features updated with the Wikidata and Wikipedia tags
 
 ![image](https://user-images.githubusercontent.com/4470913/29141732-0b66417e-7d6d-11e7-9bc5-4ac14cac7683.png)
+
 _Before adding Wikipedia tag_
 
 
 ![image](https://user-images.githubusercontent.com/4470913/29141779-3cf571c4-7d6d-11e7-9050-34c5bedfeeb5.png)
+
 _After adding the Wikipedia tag_
 
 - Click on `Save` botton
