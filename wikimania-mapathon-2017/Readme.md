@@ -63,10 +63,10 @@
 ![image](https://user-images.githubusercontent.com/4470913/29125326-1d9a065c-7d39-11e7-8237-5ba0a1297cd2.png)
 
 
-  	- Type Wikipedia in `Add field` 
-  	- Choose the language you would like to add the information in from the dropdown, here, let us choose `English`
-  	- The dropdown below the language field will provide you with a link to the possible options, choose the relevant one. You can check the correctness of the options by clicking on the `hyperlink` button beside it.
-  		- In this case hyperlink should take you to - https://en.wikipedia.org/wiki/Le_Centre_Sheraton_Hotel
+ - Type Wikipedia in `Add field` 
+ - Choose the language you would like to add the information in from the dropdown, here, let us choose `English`
+ - The dropdown below the language field will provide you with a link to the possible options, choose the relevant one. You can check the correctness of the options by clicking on the `hyperlink` button beside it.
+  - In this case hyperlink should take you to - https://en.wikipedia.org/wiki/Le_Centre_Sheraton_Hotel
 
  ![image](https://user-images.githubusercontent.com/4470913/29141673-c7f0949e-7d6c-11e7-9e19-b046e72c56cd.png)
 
