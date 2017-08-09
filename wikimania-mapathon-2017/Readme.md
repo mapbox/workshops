@@ -2,6 +2,8 @@
 
 13th August, 2017 | Wikimania Conference | [Workshop proposal](https://wikimania2017.wikimedia.org/wiki/Submissions/Mapathon!_Contribute_and_connect_OpenStreetMap_and_Wikipedia_using_Wikidata)
 
+Presented by: mikel@mapbox.com and minh@mapbox.com
+
 ---
 
 ### Introduction to OpenStreetMap
@@ -108,6 +110,7 @@ Note: Does not work on English Wikipedia but works on Wikivoyage language editio
 - This will embed the map anywhere in your wiki page.
 - Changing `<mapframe>` to `<maplink>` creates a link to a full screen map
 
+![image](https://user-images.githubusercontent.com/4470913/29143059-86212e7a-7d71-11e7-89ff-23825e25b157.png)
 
 ## How is Mapbox using OSM and Wikidata
 
