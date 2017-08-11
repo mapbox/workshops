@@ -98,7 +98,6 @@ Changeset comment -> `Added wikipedia tag #wikimania2017`
 
 Note: Does not work on English Wikipedia but works on Wikivoyage language editions, including the Swedish Wikipedia and English Wikivoyage. 
 
-
 - Go to a wikipedia/wikivoyage page (here -> https://en.wikivoyage.org/wiki/Montreal) and add the following syntax
 
 ```
@@ -111,6 +110,26 @@ Note: Does not work on English Wikipedia but works on Wikivoyage language editio
 - Changing `<mapframe>` to `<maplink>` creates a link to a full screen map
 
 ![image](https://user-images.githubusercontent.com/4470913/29143059-86212e7a-7d71-11e7-89ff-23825e25b157.png)
+
+**Plotting Wikidata items**
+
+- To highlight a geographical feature like a city outline or a highway, just add a reference to the Wikidata Qid in the mapframe.
+
+```
+<mapframe text="City of Montreal" width=300 height=300 zoom=9 longitude=-73.6386 latitude=45.5198>
+{
+  "type": "ExternalData",
+  "service": "geoshape",
+  "ids": "Q340"
+}
+</mapframe>
+```
+
+![](https://user-images.githubusercontent.com/126868/29207383-9b9bf6ee-7ea3-11e7-9210-e2684eab300c.png)
+
+- This requires the Wikidata item to be mapped on the OpenStreetMap Project. You can check the already mapped Qids using the [OSM Overpass Query Service](http://overpass-turbo.eu/s/qVU) and add new ones using [OSM.Wikidata Link](https://osm.wikidata.link)
+- You can right click on the map to get its coordinates and zoom to fine tune the view
+- Explore more using [examples](https://en.wikipedia.org/wiki/User:Naveenpf/sandbox) and the [documentation](https://www.mediawiki.org/wiki/Help:Extension:Kartographer#External_data)
 
 ## How is Mapbox using OSM and Wikidata
 
@@ -126,6 +145,12 @@ Note: Does not work on English Wikipedia but works on Wikivoyage language editio
 
 ### OSM <> Wikipedia/Wikidata connection for helping one find missing/incorrect information
 
+**Find Wikidata items to map on OSM**
+
+- Use https://osm.wikidata.link to review and match Wikidata features to OSM objects for your city
+
+
+**Find Wikidata items to improve**
 
 - Explain how these two open source projects help in finding out missing/incorrect information
 - Click on this link → https://wiki.openstreetmap.org/wiki/Wikidata_RDF_database#Find_nodes_located_too_far_from_Wikidata.27s
