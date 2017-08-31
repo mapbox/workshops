@@ -199,7 +199,7 @@ showStops(e);
 ```
 
 
-##### Create a [circular](https://www.dropbox.com/s/sgzp010kbc612lt/circle-on-earth.png?dl=0) [buffer](http://turfjs.org/static/docs/module-turf_buffer.html)
+##### Create a [circular](https://www.dropbox.com/s/sgzp010kbc612lt/circle-on-earth.png?dl=0) [buffer](http://turfjs.org/docs/#buffer)
 ```
 var point = turf.point([e.lngLat.lng, e.lngLat.lat]);
 var buffer = turf.buffer(point, 1, 'kilometers');
