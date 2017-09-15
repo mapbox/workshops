@@ -376,7 +376,7 @@ afterMap.on('load', function () {
                     "coordinates": [78.7967,17.4745]
                 },
                 "properties": {
-                    "title": "2016"
+                    "title": "2017"
                 }
             }]
         }
@@ -407,7 +407,7 @@ afterMap.on('load', function () {
                     "coordinates": [78.1314,17.4553]
                 },
                 "properties": {
-                    "title": "2001"
+                    "title": "1999"
                 }
             }]
         }
