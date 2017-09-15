@@ -226,7 +226,7 @@ Click `Preview, develop & use` button in the dialog box that appears after you s
 Click the eye button to preview your style in the browser.
 
 
-![screenshot_2017-01-25_16_24_090](https://cloud.githubusercontent.com/assets/8921295/22288237/0475f81e-e31c-11e6-979f-1314c24ba1a9.jpg)
+![image](https://user-images.githubusercontent.com/8401827/30506300-71a0ba58-9a98-11e7-9275-88b6e78f33c8.png)
 
 
 Your map should look something similar to this.
