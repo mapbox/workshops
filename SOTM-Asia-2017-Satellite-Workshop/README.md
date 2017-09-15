@@ -2,7 +2,7 @@
 
 An introductory hands-on workshop on processing and analyzing satellite imagery for urban growth and vegetation cover in Kathmandu city.
 
-## Workshop Description:
+### Workshop Description:
 
 ![screen shot 2017-01-31 at 2 46 38 pm](https://cloud.githubusercontent.com/assets/8401827/22458839/4d2ff6fc-e7c4-11e6-9810-410f42e878d2.png)
 
@@ -12,29 +12,27 @@ An introductory session on satellite imagery processing. In this hands-on worksh
 ## Summary
 
 - **Introduction**
- * Remote Sensing basics - Different types of satellites and image sources (Digital Globe, Landsat), resolution, bands, etc.,
+   * Remote Sensing basics - Different types of satellites and image sources (Digital Globe, Landsat), resolution, bands, etc.,
 - **Getting data**
- * [Landsat 7](https://earthexplorer.usgs.gov/) `(Search Criteria (select the area of interest) > Data sets > Landsat Archive > Pre Collection > L7 ETM+ SLC-on(1999-2003) > Additional Criteria > Cloud cover (Less than 10%) > Results)`
- * [Landsat 8](https://earthexplorer.usgs.gov/) `(Search Criteria (select the area of interest) > Data sets > Landsat Archive > Pre Collection > L8 OLI/TIRS & L8 OLI/TIRS Pre-WRS-2 > Additional Criteria > Cloud cover (Less than 10%) > Results)`
+   * [Landsat 7](https://earthexplorer.usgs.gov/) `(Search Criteria (select the area of interest) > Data sets > Landsat Archive > Pre Collection > L7 ETM+ SLC-on(1999-2003) > Additional Criteria > Cloud cover (Less than 10%) > Results)`
+   * [Landsat 8](https://earthexplorer.usgs.gov/) `(Search Criteria (select the area of interest) > Data sets > Landsat Archive > Pre Collection > L8 OLI/TIRS & L8 OLI/TIRS Pre-WRS-2 > Additional Criteria > Cloud cover (Less than 10%) > Results)`
 
 - **QGIS Intro**:
- * [Introduction to QGIS](http://www.qgistutorials.com/en/)
- * Walk-through QGIS interface
- * Basic Raster analysis using QGIS
+   * [Introduction to QGIS](http://www.qgistutorials.com/en/)
+   * Walk-through QGIS interface
+   * Basic Raster analysis using QGIS
 
 - **QGIS processing**:
- * Exploring different bands for identifying features of interest (use real-world examples)
- * Stacking bands of satellite images ([band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/))
- * Visualising different band combinations
+   * Exploring different bands for identifying features of interest (use real-world examples)
+   * Stacking bands of satellite images ([band combinations](https://blogs.esri.com/esri/arcgis/2013/07/24/band-combinations-for-landsat-8/))
+   * Visualising different band combinations
 
 - **Studio and mapbox tools**:
- * Exhibiting examples - [Drying reservoirs](https://www.mapbox.com/blog/reservoirs-drying-landsat/) , [Forest fires](https://twitter.com/mapbox/status/727838137871818753) , [Mumbai landfill fire](https://www.mapbox.com/blog/mumbai-landfill-fire/)
- * Introduction to [Mapbox studio](https://www.mapbox.com/studio/) for design
- * Introduction for building a web app using [Mapbox gl js](https://www.mapbox.com/mapbox-gl-js/api/)
+   * Exhibiting examples - [Drying reservoirs](https://www.mapbox.com/blog/reservoirs-drying-landsat/) , [Forest fires](https://twitter.com/mapbox/status/727838137871818753) , [Mumbai landfill fire](https://www.mapbox.com/blog/mumbai-landfill-fire/)
+   * Introduction to [Mapbox studio](https://www.mapbox.com/studio/) for design
+   * Introduction for building a web app using [Mapbox gl js](https://www.mapbox.com/mapbox-gl-js/api/)
 
 ## Workshop Details
-
-### Mapbox Satellite
 
 ![screen shot 2016-06-24 at 12 26 56](https://cloud.githubusercontent.com/assets/353700/16330478/1a2ec19a-3a07-11e6-967d-e5db9ffb91f5.png)<br>*[mapbox.com/satellite](https://www.mapbox.com/satellite/)*
 
@@ -44,11 +42,11 @@ An introductory session on satellite imagery processing. In this hands-on worksh
 We get RAW satellite imagery to download, which should be further processed to get it refined for our usage. To get a refined imagery we follow the following process:
 
 * **Radiometric correction of imagery**
-   * Corrections for Sensor sensitivity
+   * **Corrections for Sensor sensitivity:**
      * For optical sensors, due to use of lens a fringe area in the corners will be darker compared with the central region in the image. This called Vignetting. This can be calibrated using sensor output signal and irradiance. This information is supplied in the raw data.
-   * **Sun angle and topography**
+   * **Sun angle and topography:**
      * Bright spots often occur in the image due to diffusion of sun rays reflectance. These spots are called Sun spots. These can be corrected using known angle and fourier estimation of shading curve.
-   * **Atmospheric correction**
+   * **Atmospheric correction:**
      * Various atmospheric effects cause absorption and scattering of the solar radiation. Reflected or emitted radiation from an object and path radiance (atmospheric scattering) should be corrected for.
      * Pan Sharpening - Using a higher resolution greyscale image to optimize a color band image
 
@@ -162,6 +160,7 @@ We get RAW satellite imagery to download, which should be further processed to g
 
 ![screen shot 2017-01-25 at 6 08 18 pm](https://cloud.githubusercontent.com/assets/8401827/22290872/4c9989b4-e329-11e6-89da-02d6982b2247.png)
 
+------------
 
 ### Mapbox Studio
 
@@ -237,41 +236,12 @@ Your map should look something similar to this.
 
 Once we have both `before` map and `after` map, let us add the years on each style to add year information into each style. We can use Mapbox Studio Dataset editor for this.
 
+------------
+
+### Mapbox GL JS
 
 
-### GL JS
-
-* Sign up at https://github.com/
-* Go to `Your profile` and click on `Repositories`.
-![image](https://cloud.githubusercontent.com/assets/8921295/22290313/14135f8c-e326-11e6-8baf-b1be79d2548f.png)
-
-
-Click `New` to create a repository. Give your repository a name.
-
-![image](https://cloud.githubusercontent.com/assets/8921295/22290347/43b424ec-e326-11e6-81b9-d0a411ee2ccc.png)
-
-
-Check `Initialize with a ReadMe file` to add a description file in your repository.
-
-![image](https://cloud.githubusercontent.com/assets/8921295/22290386/7d630244-e326-11e6-9e14-ab7de9a2646e.png)
-
-Now create a `gh-pages` branch that helps create a static map using Github.
-
-![image](https://cloud.githubusercontent.com/assets/8921295/22290408/9d77a13e-e326-11e6-8e8d-053f5097411c.png)
-
-You should see 2 branches in your repository and you should be in your new `gh-pages` repository.
-
-![image](https://cloud.githubusercontent.com/assets/8921295/22290438/c222cdb0-e326-11e6-9ae5-efecc2a42e4f.png)
-Click on `Create new file` to add our GL JS example code into a index.html file.
-
-Example code: https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-compare/
-
-![image](https://cloud.githubusercontent.com/assets/8921295/22290466/f1fa5d14-e326-11e6-9d5e-272de6e29dae.png)
-
-
-Let us understand this code better.
-
-### Basic HTML syntax
+#### Basic HTML syntax
 ```
 <!DOCTYPE html>
 <html>
@@ -284,9 +254,14 @@ Let us understand this code better.
     </body>
 </html>
 ```
-### The code that we use today for creating HTML application
 
-[Swipe option from Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-compare/)
+* Open a text editor i.e, [Sublime](https://www.sublimetext.com/3) or [Atom](https://atom.io/) for editing the code locally
+
+* Example code that we are going to use today: https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-compare/
+
+Let us understand this code better.
+
+### The code that we use today for creating HTML application
 
 ```
 <!DOCTYPE html>
@@ -362,6 +337,9 @@ var map = new mapboxgl.Compare(beforeMap, afterMap, {
 </html>
 
 ```
+
+* Copy this code and paste it in your text editor and save it as `index.html`
+
 #### Adding year labels to the web app:
 ```
 afterMap.on('load', function () {
@@ -427,9 +405,37 @@ afterMap.on('load', function () {
     });
  });
 ```
-Commit your index.html code into your repository.
+* Save your index.html code and open it with web browser to see changes locally.
+
+--------
+### Hosting the visualization in GitHub
+
+* Sign up at https://github.com/
+* Go to `Your profile` and click on `Repositories`.
+![image](https://cloud.githubusercontent.com/assets/8921295/22290313/14135f8c-e326-11e6-8baf-b1be79d2548f.png)
+
+
+* Click `New` to create a repository. Give your repository a name.
+
+![image](https://cloud.githubusercontent.com/assets/8921295/22290347/43b424ec-e326-11e6-81b9-d0a411ee2ccc.png)
+
+
+* Check `Initialize with a ReadMe file` to add a description file in your repository.
+
+![image](https://cloud.githubusercontent.com/assets/8921295/22290386/7d630244-e326-11e6-9e14-ab7de9a2646e.png)
+
+* Now create a `gh-pages` branch that helps create a static map using Github.
+
+![image](https://cloud.githubusercontent.com/assets/8921295/22290408/9d77a13e-e326-11e6-8e8d-053f5097411c.png)
+
+* You should see 2 branches in your repository and you should be in your new `gh-pages` repository.
+
+![image](https://cloud.githubusercontent.com/assets/8921295/22290438/c222cdb0-e326-11e6-9ae5-efecc2a42e4f.png)
+
+* Click on `Create new file` and add your locally saved `index.html` code into it and name it as `index.html`.
 
 Go to settings in your repository to see the link to your map.
+
 
 #### See also
 
