@@ -217,8 +217,7 @@ Select a new style in the dialog box and select `Satellite Streets` style and cl
 
 Click `Create Layer`, Change the name of your style and then `Publish`. You have now created a map you can share with an URL.
 
-
-![screenshot_2017-01-25_16_16_51](https://cloud.githubusercontent.com/assets/8921295/22288038/348db880-e31b-11e6-8d12-09d9a29793c5.jpg)
+![image](https://user-images.githubusercontent.com/8401827/30506300-71a0ba58-9a98-11e7-9275-88b6e78f33c8.png)
 
 
 Click `Preview, develop & use` button in the dialog box that appears after you successfully publish.
@@ -226,13 +225,12 @@ Click `Preview, develop & use` button in the dialog box that appears after you s
 Click the eye button to preview your style in the browser.
 
 
-![image](https://user-images.githubusercontent.com/8401827/30506300-71a0ba58-9a98-11e7-9275-88b6e78f33c8.png)
+![screenshot_2017-01-25_16_24_090](https://cloud.githubusercontent.com/assets/8921295/22288237/0475f81e-e31c-11e6-979f-1314c24ba1a9.jpg)
 
 
 Your map should look something similar to this.
 
-![image](https://cloud.githubusercontent.com/assets/8921295/22288010/1bbb0330-e31b-11e6-9561-1f59e412936e.png)
-
+<img width="806" alt="screen shot 2017-09-17 at 10 08 05 pm" src="https://user-images.githubusercontent.com/8401827/30522818-194b2bd6-9bf6-11e7-87d6-e28e3797f2ff.png">
 
 Once we have both `before` map and `after` map, let us add the years on each style to add year information into each style. We can use Mapbox Studio Dataset editor for this.
 
