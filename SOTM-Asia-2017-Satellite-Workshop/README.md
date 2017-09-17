@@ -447,4 +447,4 @@ Go to settings in your repository to see the link to your map.
 
 ## Final Output
 
-The final output can be seen **[here](https://jothirnadh.github.io/test-swipe-map/#9.95/17.3968/78.4516)**
+The final output can be seen **[here](https://mapbox.github.io/workshops/SOTM-Asia-2017-Satellite-Workshop/#11.92/27.6851/85.3308)**
