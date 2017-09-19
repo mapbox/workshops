@@ -2,6 +2,13 @@
 
 An introductory hands-on workshop on processing and analyzing satellite imagery for urban growth and vegetation cover in Kathmandu city.
 
+### Workshop Pre-requisites 
+
+- Don't forget to bring your laptops!
+- Make sure you install latest [QGIS](http://www.qgis.org/en/site/forusers/download.html) in your system
+- Sign up for a [Mapbox account](https://www.mapbox.com/)!
+
+
 ### Workshop Description:
 
 ![screen shot 2017-01-31 at 2 46 38 pm](https://cloud.githubusercontent.com/assets/8401827/22458839/4d2ff6fc-e7c4-11e6-9810-410f42e878d2.png)
