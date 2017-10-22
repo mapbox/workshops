@@ -3,7 +3,7 @@
 ![banner-image](https://user-images.githubusercontent.com/8921295/29491313-f7b3c83a-8592-11e7-82cd-0bdeb3fcb746.png)
 
 
-This document is aimed to be a step-by-step guide to emulate and accompany the workshop of [Validating the map](http://2017.stateofthemap.org/2017/validating-the-map/) conducted at [State of the Map, 2017](http://2017.stateofthemap.org/).
+This document is aimed to be a step-by-step guide to emulate and accompany the workshop of Validating the map conducted at [State of the Map, 2017](https://2017.stateofthemap.us/program/).
 
 
 ### Workshop Schedule - 75mins
