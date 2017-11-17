@@ -36,7 +36,7 @@
 - Here is the [video on how to use Mapillary in iD editor](https://www.youtube.com/watch?v=1H8fx6ZUDTw) to improve OpenStreetMap
 - How to map point's of interest(POI's) using Mapillary 
 
-![poimapping](https://imgur.com/a/Ii8vO)
+![POI Mapping](https://imgur.com/a/Ii8vO)
 
 - Save your work and upload to OpenStreetMap.
 
