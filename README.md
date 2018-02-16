@@ -19,3 +19,5 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 12. [Ottawa OpenStreetMap meetup](https://github.com/mapbox/workshops/tree/gh-pages/Ottawa-meetup-Aug-2017) at Ottawa, Canada on 2017-08-04.
 13. [Mapathon! Contribute and connect OpenStreetMap and Wikipedia using Wikidata](https://github.com/mapbox/workshops/tree/gh-pages/wikimania-mapathon-2017) at Wikimania 2017, Montreal, Canada on 2017-08-13
 14. [State of the Map 2017, Validating the map workshop](https://github.com/mapbox/workshops/tree/gh-pages/SoTM-2017) at Aizu-Wakamatsu, Japan on 2017-08-20
+15. [Interactive visualizations for Remote sensing analysis](https://github.com/mapbox/workshops/tree/gh-pages/SOTM-Asia-2017-Satellite-Workshop) at SotM Asia 2017, Kathmandu, Nepal on 2017-09-24
+16. [OSMGeoWeek Mapilary Mapathon 2017](https://github.com/mapbox/workshops/tree/gh-pages/OSMGeoweek-Nov-2017) at Mapbox BLR on 2017-11-17
