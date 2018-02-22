@@ -1,0 +1,11 @@
+rank,name,city,code,longitude,latitude,passenger_2016_17,sqrt_2016_17,passenger_2015_16,sqrt_2015_16
+1,Indira Gandhi International Airport,Delhi,DEL,77.123767,28.653458,57703096,7596.3,48424165,6958.7
+2,Chhatrapati Shivaji International Airport,Mumbai,BOM,72.83333,18.96667,45154345,6719.7,41670351,6455.3
+3,Kempegowda International Airport,Bangalore,BLR,77.59796,12.96991,22881392,4783.4,18971149,4355.6
+4,Chennai International Airport,Chennai,MAA,80.27,13.09,18362215,4285.1,15218017,3901.0
+5,Netaji Subhas Chandra Bose International Airport,Kolkata,CCU,88.33778,22.54111,15819539,3977.4,12761007,3572.3
+6,Rajiv Gandhi International Airport,Hyderabad,HYD,78.46667,17.36667,15102672,3886.2,12388159,3519.7
+7,Cochin International Airport,Kochi,COK,76.266935,9.901199,8955441,2992.6,7749901,2783.9
+8,Sardar Vallabhbhai Patel International Airport,Ahmedabad,AMD,72.58,23.03,7405282,2721.3,6480111,2545.6
+9,Goa International Airport,Goa,GOI,74.030543,15.29299,6856362,2618.5,5375555,2318.5
+10,Pune International Airport,Pune,PNQ,73.84778,18.52361,6787391,2605.3,5417167,2327.5
