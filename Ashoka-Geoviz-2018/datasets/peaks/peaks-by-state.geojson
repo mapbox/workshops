@@ -1,0 +1,515 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 82.723,18.228 ]
+    },
+    "properties": {
+    "state":"Andhra Pradesh",
+    "peak":"Arma Konda",
+    "region":"Eastern Ghats",
+    "height":"1680 m",
+    "height_m":1680,
+    "sqrt_height":40.99,
+    "height_ft":"5,512 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 95.0542,29.6325 ]
+    },
+    "properties": {
+    "state":"Arunachal Pradesh",
+    "peak":"Namcha Barwa",
+    "region":"Eastern Himalaya",
+    "height":"7782 m",
+    "height_m":7782,
+    "sqrt_height":88.22,
+    "height_ft":"25,531 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 93.4529,25.32135 ]
+    },
+    "properties": {
+    "state":"Assam",
+    "peak":"Unnamed peak near Laike",
+    "region":"Dima Hasao District",
+    "height":"1960 m",
+    "height_m":1960,
+    "sqrt_height":44.27,
+    "height_ft":"6,430 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 84.3055,27.3876 ]
+    },
+    "properties": {
+    "state":"Bihar",
+    "peak":"Fort Someshwar",
+    "region":"Sivalik Hills",
+    "height":"880 m",
+    "height_m":880,
+    "sqrt_height":29.66,
+    "height_ft":"2,887 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 81.2258,18.6646 ]
+    },
+    "properties": {
+    "state":"Chhattisgarh",
+    "peak":"Unnamed peak near Gaurlata",
+    "region":"Bailadila Range",
+    "height":"1276 m",
+    "height_m":1276,
+    "sqrt_height":35.72,
+    "height_ft":"4,186 ft",
+    "Source":"The highest named peak is Gaurlata (1225 m)."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 74.2795,15.5232 ]
+    },
+    "properties": {
+    "state":"Goa",
+    "peak":"Sonsogor",
+    "region":"Western Ghats",
+    "height":"1022 m",
+    "height_m":1022,
+    "sqrt_height":31.97,
+    "height_ft":"3,353 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 70.527199,21.5281 ]
+    },
+    "properties": {
+    "state":"Gujarat",
+    "peak":"Mount Girnar",
+    "region":"Girnar hills",
+    "height":"1145 m",
+    "height_m":1145,
+    "sqrt_height":33.84,
+    "height_ft":"3,756 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.0769,30.7437 ]
+    },
+    "properties": {
+    "state":"Haryana",
+    "peak":"Karoh Peak",
+    "region":"Morni Hills section of Sivalik Hills",
+    "height":"1499 m",
+    "height_m":1499,
+    "sqrt_height":38.72,
+    "height_ft":"4,918 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.735,31.884 ]
+    },
+    "properties": {
+    "state":"Himachal Pradesh",
+    "peak":"Reo Purgyil",
+    "region":"Zanskar range section of the Western Himalayas",
+    "height":"6816 m",
+    "height_m":6816,
+    "sqrt_height":82.56,
+    "height_ft":"22,363 ft",
+    "Source":"Reo Purgyil lies on the Himachal Pradesh-Tibet border."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.513,35.88 ]
+    },
+    "properties": {
+    "state":"Jammu and Kashmir (Claimed)",
+    "peak":"K2",
+    "region":"Karakoram Range",
+    "height":"8611 m",
+    "height_m":8611,
+    "sqrt_height":92.8,
+    "height_ft":"28,251 ft",
+    "Source":"K2 lies in Pakistan Administered Kashmir, which is claimed by India as part of Jammu and Kashmir."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.849,35.399 ]
+    },
+    "properties": {
+    "state":"Jammu and Kashmir (Administered)",
+    "peak":"Saltoro Kangri",
+    "region":"Karakoram Range",
+    "height":"7742 m",
+    "height_m":7742,
+    "sqrt_height":87.99,
+    "height_ft":"25,400 ft",
+    "Source":"Saltoro Kangri lies along the AGPL in the Siachen area."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 86.129,23.9634 ]
+    },
+    "properties": {
+    "state":"Jharkhand",
+    "peak":"Parasnath",
+    "region":"Parasnath Hills",
+    "height":"1382 m",
+    "height_m":1382,
+    "sqrt_height":37.18,
+    "height_ft":"4,482 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.721,13.391 ]
+    },
+    "properties": {
+    "state":"Karnataka",
+    "peak":"Mullayanagiri",
+    "region":"Sahyadri hills section of the Western Ghats",
+    "height":"1925 m",
+    "height_m":1925,
+    "sqrt_height":43.87,
+    "height_ft":"6,317 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.061,10.17 ]
+    },
+    "properties": {
+    "state":"Kerala",
+    "peak":"Anamudi",
+    "region":"Anamalai Hills section of the Western Ghats",
+    "height":"2695 m",
+    "height_m":2695,
+    "sqrt_height":51.91,
+    "height_ft":"8,842 ft",
+    "Source":"It is highest peak in the Western Ghats and highest peak in India outside Himalayas."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.371,22.449 ]
+    },
+    "properties": {
+    "state":"Madhya Pradesh",
+    "peak":"Dhupgarh",
+    "region":"Satpura Range",
+    "height":"1352 m",
+    "height_m":1352,
+    "sqrt_height":36.77,
+    "height_ft":"4,435 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.711,19.6003 ]
+    },
+    "properties": {
+    "state":"Maharashtra",
+    "peak":"Kalsubai",
+    "region":"Sahyadri hills section of Western Ghats",
+    "height":"1646 m",
+    "height_m":1646,
+    "sqrt_height":40.57,
+    "height_ft":"5,400 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 94.085,25.531 ]
+    },
+    "properties": {
+    "state":"Manipur",
+    "peak":"Mount Iso",
+    "region":"Purvanchal Range",
+    "height":"2994 m",
+    "height_m":2994,
+    "sqrt_height":54.72,
+    "height_ft":"9,823 ft",
+    "Source":"Also known as Tenipu"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 91.8512,25.5316 ]
+    },
+    "properties": {
+    "state":"Meghalaya",
+    "peak":"Shillong Peak",
+    "region":"Khasi Hills",
+    "height":"1965 m",
+    "height_m":1965,
+    "sqrt_height":44.33,
+    "height_ft":"6,447 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 93.0388,22.6315 ]
+    },
+    "properties": {
+    "state":"Mizoram",
+    "peak":"Phawngpui",
+    "region":"Lushai Hills",
+    "height":"2165 m",
+    "height_m":2165,
+    "sqrt_height":46.53,
+    "height_ft":"7,103 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 95.033,25.742 ]
+    },
+    "properties": {
+    "state":"Nagaland",
+    "peak":"Mount Saramati",
+    "region":"Naga Hills",
+    "height":"3841 m",
+    "height_m":3841,
+    "sqrt_height":61.98,
+    "height_ft":"12,602 ft",
+    "Source":"Mount Saramati lies on the Nagaland-Myanmar border."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 82.982,18.675 ]
+    },
+    "properties": {
+    "state":"Odisha",
+    "peak":"Deomali",
+    "region":"Eastern Ghats",
+    "height":"1672 m",
+    "height_m":1672,
+    "sqrt_height":40.89,
+    "height_ft":"5,486 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.601,31.259 ]
+    },
+    "properties": {
+    "state":"Punjab",
+    "peak":"Unnamed peak on the Naina Devi range",
+    "region":"Sivalik Hills",
+    "height":"1000 m",
+    "height_m":1000,
+    "sqrt_height":31.62,
+    "height_ft":"3,281 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.776,24.65 ]
+    },
+    "properties": {
+    "state":"Rajasthan",
+    "peak":"Guru Shikhar",
+    "region":"Aravalli Range",
+    "height":"1722 m",
+    "height_m":1722,
+    "sqrt_height":41.5,
+    "height_ft":"5,650 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 88.148,27.703 ]
+    },
+    "properties": {
+    "state":"Sikkim",
+    "peak":"Kangchenjunga",
+    "region":"Eastern Himalaya",
+    "height":"8586 m",
+    "height_m":8586,
+    "sqrt_height":92.66,
+    "height_ft":"28,169 ft",
+    "Source":"Kangchenjunga lies on the Sikkim-Nepal border."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.736,11.401 ]
+    },
+    "properties": {
+    "state":"Tamil Nadu",
+    "peak":"Doddabetta",
+    "region":"Nilgiri Hills section of the Western Ghats",
+    "height":"2636 m",
+    "height_m":2636,
+    "sqrt_height":51.34,
+    "height_ft":"8,648 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.7417,18.3419 ]
+    },
+    "properties": {
+    "state":"Telangana",
+    "peak":"Doli Gutta",
+    "region":"Deccan Plateau",
+    "height":"965 m",
+    "height_m":965,
+    "sqrt_height":31.06,
+    "height_ft":"3,166 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 92.260971,23.809782 ]
+    },
+    "properties": {
+    "state":"Tripura",
+    "peak":"Betlingchhip",
+    "region":"Jampui Hills section of the Purvanchal Range",
+    "height":"930 m",
+    "height_m":930,
+    "sqrt_height":30.5,
+    "height_ft":"3,051 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.6865,30.3798 ]
+    },
+    "properties": {
+    "state":"Uttar Pradesh",
+    "peak":"Amsot Peak",
+    "region":"Sivalik Hills",
+    "height":"957 m",
+    "height_m":957,
+    "sqrt_height":30.94,
+    "height_ft":"3,140 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 79.97,30.376 ]
+    },
+    "properties": {
+    "state":"Uttarakhand",
+    "peak":"Nanda Devi",
+    "region":"Garhwal Himalayasection of the Western Himalayas",
+    "height":"7816 m",
+    "height_m":7816,
+    "sqrt_height":88.41,
+    "height_ft":"25,646 ft",
+    "Source":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 88.002,27.106 ]
+    },
+    "properties": {
+    "state":"West Bengal",
+    "peak":"Sandakphu",
+    "region":"Eastern Himalayas",
+    "height":"3636 m",
+    "height_m":3636,
+    "sqrt_height":60.3,
+    "height_ft":"11,929 ft",
+    "Source":"Sandakphu lies on the West Bengal-Nepal border."
+    }
+  }
+]
+}
