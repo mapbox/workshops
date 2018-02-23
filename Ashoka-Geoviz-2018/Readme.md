@@ -26,9 +26,7 @@ Part of: Information Visualization elective module
      1. Scrollytelling with maps: [Code Example](https://www.mapbox.com/mapbox-gl-js/example/scroll-fly-to/), [Financial Times visualization](https://ig.ft.com/sites/special-reports/one-belt-one-road/)
      2. Data joins for choropleths on the fly: [Example](https://www.mapbox.com/mapbox-gl-js/example/data-join/) + [Blog](https://blog.mapbox.com/visualize-the-usas-economic-recovery-with-client-side-data-joins-2aeab23ee9b0)
 5. **Datasets**
-   - [Datameet/maps](https://github.com/datameet/maps): Boundaries of India and Indian states
-   - [Earthquake catalog](https://earthquake.usgs.gov/earthquakes/search/)
-   - [List of Indian cities by population](https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population)
-   - [List of busiest airports in India](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_India)
-   - [Forbes list of Indian billionaires](https://en.wikipedia.org/wiki/Forbes_list_of_Indian_billionaires)
-   - [Many more lists with India-specific data on Wikipedia](https://en.wikipedia.org/wiki/Category:India-related_lists)
+   - [List of datasets that we’ll use for the workshop](https://github.com/mapbox/workshops/tree/gh-pages/Ashoka-Geoviz-2018/datasets#list-of-datasets)
+   - [Datameet/maps](https://github.com/datameet/maps): Official boundaries of India and Indian states
+   - [Lists with India-specific data on Wikipedia](https://en.wikipedia.org/wiki/Category:India-related_lists)
+   - [How Geocoding works using the Mapbox API](https://www.mapbox.com/help/how-geocoding-works/)
