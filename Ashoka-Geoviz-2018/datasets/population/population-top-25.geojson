@@ -1,0 +1,380 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.83333,18.96667 ]
+    },
+    "properties": {
+    "rank":1,
+    "city":"Mumbai",
+    "pop_2011":12442373,
+    "sqrt_2011":3527.4,
+    "pop_2001":11978450,
+    "sqrt_2001":3461
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.123767,28.653458 ]
+    },
+    "properties": {
+    "rank":2,
+    "city":"Delhi",
+    "pop_2011":11034555,
+    "sqrt_2011":3321.8,
+    "pop_2001":9879172,
+    "sqrt_2001":3143.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.59796,12.96991 ]
+    },
+    "properties": {
+    "rank":3,
+    "city":"Bangalore",
+    "pop_2011":8443675,
+    "sqrt_2011":2905.8,
+    "pop_2001":4301326,
+    "sqrt_2001":2074
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.46667,17.36667 ]
+    },
+    "properties": {
+    "rank":4,
+    "city":"Hyderabad",
+    "pop_2011":6993262,
+    "sqrt_2011":2644.5,
+    "pop_2001":3637483,
+    "sqrt_2001":1907.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.58,23.03 ]
+    },
+    "properties": {
+    "rank":5,
+    "city":"Ahmedabad",
+    "pop_2011":5577940,
+    "sqrt_2011":2361.8,
+    "pop_2001":3520085,
+    "sqrt_2001":1876.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.27,13.09 ]
+    },
+    "properties": {
+    "rank":6,
+    "city":"Chennai",
+    "pop_2011":4646732,
+    "sqrt_2011":2155.6,
+    "pop_2001":4343645,
+    "sqrt_2001":2084.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 88.33778,22.54111 ]
+    },
+    "properties": {
+    "rank":7,
+    "city":"Kolkata",
+    "pop_2011":4496694,
+    "sqrt_2011":2120.5,
+    "pop_2001":4572876,
+    "sqrt_2001":2138.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.83,21.17 ]
+    },
+    "properties": {
+    "rank":8,
+    "city":"Surat",
+    "pop_2011":4467797,
+    "sqrt_2011":2113.7,
+    "pop_2001":2433835,
+    "sqrt_2001":1560.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.84778,18.52361 ]
+    },
+    "properties": {
+    "rank":9,
+    "city":"Pune",
+    "pop_2011":3124458,
+    "sqrt_2011":1767.6,
+    "pop_2001":2538473,
+    "sqrt_2001":1593.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.86667,26.91667 ]
+    },
+    "properties": {
+    "rank":10,
+    "city":"Jaipur",
+    "pop_2011":3046163,
+    "sqrt_2011":1745.3,
+    "pop_2001":2322575,
+    "sqrt_2001":1524
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.91583,26.86056 ]
+    },
+    "properties": {
+    "rank":11,
+    "city":"Lucknow",
+    "pop_2011":2817105,
+    "sqrt_2011":1678.4,
+    "pop_2001":2185927,
+    "sqrt_2001":1478.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.33111,26.4725 ]
+    },
+    "properties": {
+    "rank":12,
+    "city":"Kanpur",
+    "pop_2011":2765348,
+    "sqrt_2011":1662.9,
+    "pop_2001":2551337,
+    "sqrt_2001":1597.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 79.08306,21.15389 ]
+    },
+    "properties": {
+    "rank":13,
+    "city":"Nagpur",
+    "pop_2011":2405665,
+    "sqrt_2011":1551,
+    "pop_2001":2052066,
+    "sqrt_2001":1432.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 83.25,17.7 ]
+    },
+    "properties": {
+    "rank":14,
+    "city":"Visakhapatnam",
+    "pop_2011":2035922,
+    "sqrt_2011":1426.9,
+    "pop_2001":982904,
+    "sqrt_2001":991.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.84722,22.72056 ]
+    },
+    "properties": {
+    "rank":15,
+    "city":"Indore",
+    "pop_2011":1960631,
+    "sqrt_2011":1400.2,
+    "pop_2001":1474968,
+    "sqrt_2001":1214.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.97,19.2 ]
+    },
+    "properties": {
+    "rank":16,
+    "city":"Thane",
+    "pop_2011":1818872,
+    "sqrt_2011":1348.7,
+    "pop_2001":1262551,
+    "sqrt_2001":1123.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.41667,23.25 ]
+    },
+    "properties": {
+    "rank":17,
+    "city":"Bhopal",
+    "pop_2011":1798218,
+    "sqrt_2011":1341,
+    "pop_2001":1437354,
+    "sqrt_2001":1198.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.757225,18.695734 ]
+    },
+    "properties": {
+    "rank":18,
+    "city":"Pimpri-Chinchwad",
+    "pop_2011":1729359,
+    "sqrt_2011":1315.1,
+    "pop_2001":1012472,
+    "sqrt_2001":1006.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 85.14139,25.61 ]
+    },
+    "properties": {
+    "rank":19,
+    "city":"Patna",
+    "pop_2011":1683200,
+    "sqrt_2011":1297.4,
+    "pop_2001":1366444,
+    "sqrt_2001":1168.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.2,22.3 ]
+    },
+    "properties": {
+    "rank":20,
+    "city":"Vadodara",
+    "pop_2011":1666703,
+    "sqrt_2011":1291,
+    "pop_2001":1306227,
+    "sqrt_2001":1142.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.41667,28.66667 ]
+    },
+    "properties": {
+    "rank":21,
+    "city":"Ghaziabad",
+    "pop_2011":1636068,
+    "sqrt_2011":1279.1,
+    "pop_2001":968256,
+    "sqrt_2001":984
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.84861,30.90833 ]
+    },
+    "properties": {
+    "rank":22,
+    "city":"Ludhiana",
+    "pop_2011":1613878,
+    "sqrt_2011":1270.4,
+    "pop_2001":1398467,
+    "sqrt_2001":1182.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.96667,11 ]
+    },
+    "properties": {
+    "rank":23,
+    "city":"Coimbatore",
+    "pop_2011":1601438,
+    "sqrt_2011":1265.5,
+    "pop_2001":930882,
+    "sqrt_2001":964.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.02,27.18 ]
+    },
+    "properties": {
+    "rank":24,
+    "city":"Agra",
+    "pop_2011":1585704,
+    "sqrt_2011":1259.2,
+    "pop_2001":1275134,
+    "sqrt_2001":1129.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.11939,9.91966 ]
+    },
+    "properties": {
+    "rank":25,
+    "city":"Madurai",
+    "pop_2011":1561129,
+    "sqrt_2011":1249.5,
+    "pop_2001":928869,
+    "sqrt_2001":963.8
+    }
+  }
+]
+}

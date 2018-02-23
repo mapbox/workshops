@@ -1,0 +1,175 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.123767,28.653458 ]
+    },
+    "properties": {
+    "rank":1,
+    "name":"Indira Gandhi International Airport",
+    "city":"Delhi",
+    "code":"DEL",
+    "passenger_2016_17":57703096,
+    "sqrt_2016_17":7596.3,
+    "passenger_2015_16":48424165,
+    "sqrt_2015_16":6958.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.83333,18.96667 ]
+    },
+    "properties": {
+    "rank":2,
+    "name":"Chhatrapati Shivaji International Airport",
+    "city":"Mumbai",
+    "code":"BOM",
+    "passenger_2016_17":45154345,
+    "sqrt_2016_17":6719.7,
+    "passenger_2015_16":41670351,
+    "sqrt_2015_16":6455.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.59796,12.96991 ]
+    },
+    "properties": {
+    "rank":3,
+    "name":"Kempegowda International Airport",
+    "city":"Bangalore",
+    "code":"BLR",
+    "passenger_2016_17":22881392,
+    "sqrt_2016_17":4783.4,
+    "passenger_2015_16":18971149,
+    "sqrt_2015_16":4355.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.27,13.09 ]
+    },
+    "properties": {
+    "rank":4,
+    "name":"Chennai International Airport",
+    "city":"Chennai",
+    "code":"MAA",
+    "passenger_2016_17":18362215,
+    "sqrt_2016_17":4285.1,
+    "passenger_2015_16":15218017,
+    "sqrt_2015_16":3901
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 88.33778,22.54111 ]
+    },
+    "properties": {
+    "rank":5,
+    "name":"Netaji Subhas Chandra Bose International Airport",
+    "city":"Kolkata",
+    "code":"CCU",
+    "passenger_2016_17":15819539,
+    "sqrt_2016_17":3977.4,
+    "passenger_2015_16":12761007,
+    "sqrt_2015_16":3572.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.46667,17.36667 ]
+    },
+    "properties": {
+    "rank":6,
+    "name":"Rajiv Gandhi International Airport",
+    "city":"Hyderabad",
+    "code":"HYD",
+    "passenger_2016_17":15102672,
+    "sqrt_2016_17":3886.2,
+    "passenger_2015_16":12388159,
+    "sqrt_2015_16":3519.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.266935,9.901199 ]
+    },
+    "properties": {
+    "rank":7,
+    "name":"Cochin International Airport",
+    "city":"Kochi",
+    "code":"COK",
+    "passenger_2016_17":8955441,
+    "sqrt_2016_17":2992.6,
+    "passenger_2015_16":7749901,
+    "sqrt_2015_16":2783.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.58,23.03 ]
+    },
+    "properties": {
+    "rank":8,
+    "name":"Sardar Vallabhbhai Patel International Airport",
+    "city":"Ahmedabad",
+    "code":"AMD",
+    "passenger_2016_17":7405282,
+    "sqrt_2016_17":2721.3,
+    "passenger_2015_16":6480111,
+    "sqrt_2015_16":2545.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 74.030543,15.29299 ]
+    },
+    "properties": {
+    "rank":9,
+    "name":"Goa International Airport",
+    "city":"Goa",
+    "code":"GOI",
+    "passenger_2016_17":6856362,
+    "sqrt_2016_17":2618.5,
+    "passenger_2015_16":5375555,
+    "sqrt_2015_16":2318.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.84778,18.52361 ]
+    },
+    "properties": {
+    "rank":10,
+    "name":"Pune International Airport",
+    "city":"Pune",
+    "code":"PNQ",
+    "passenger_2016_17":6787391,
+    "sqrt_2016_17":2605.3,
+    "passenger_2015_16":5417167,
+    "sqrt_2015_16":2327.5
+    }
+  }
+]
+}

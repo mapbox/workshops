@@ -1,0 +1,255 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.83333,18.96667 ]
+    },
+    "properties": {
+    "city":"Mumbai"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.123767,28.653458 ]
+    },
+    "properties": {
+    "city":"Delhi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.59796,12.96991 ]
+    },
+    "properties": {
+    "city":"Bangalore"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.46667,17.36667 ]
+    },
+    "properties": {
+    "city":"Hyderabad"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.58,23.03 ]
+    },
+    "properties": {
+    "city":"Ahmedabad"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.27,13.09 ]
+    },
+    "properties": {
+    "city":"Chennai"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 88.33778,22.54111 ]
+    },
+    "properties": {
+    "city":"Kolkata"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.83,21.17 ]
+    },
+    "properties": {
+    "city":"Surat"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.84778,18.52361 ]
+    },
+    "properties": {
+    "city":"Pune"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.86667,26.91667 ]
+    },
+    "properties": {
+    "city":"Jaipur"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.91583,26.86056 ]
+    },
+    "properties": {
+    "city":"Lucknow"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.33111,26.4725 ]
+    },
+    "properties": {
+    "city":"Kanpur"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 79.08306,21.15389 ]
+    },
+    "properties": {
+    "city":"Nagpur"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 83.25,17.7 ]
+    },
+    "properties": {
+    "city":"Visakhapatnam"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.84722,22.72056 ]
+    },
+    "properties": {
+    "city":"Indore"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.97,19.2 ]
+    },
+    "properties": {
+    "city":"Thane"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.41667,23.25 ]
+    },
+    "properties": {
+    "city":"Bhopal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.757225,18.695734 ]
+    },
+    "properties": {
+    "city":"Pimpri-Chinchwad"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 85.14139,25.61 ]
+    },
+    "properties": {
+    "city":"Patna"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.2,22.3 ]
+    },
+    "properties": {
+    "city":"Vadodara"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.41667,28.66667 ]
+    },
+    "properties": {
+    "city":"Ghaziabad"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.84861,30.90833 ]
+    },
+    "properties": {
+    "city":"Ludhiana"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.96667,11 ]
+    },
+    "properties": {
+    "city":"Coimbatore"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.02,27.18 ]
+    },
+    "properties": {
+    "city":"Agra"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.11939,9.91966 ]
+    },
+    "properties": {
+    "city":"Madurai"
+    }
+  }
+]
+}
