@@ -21,3 +21,5 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 14. [State of the Map 2017, Validating the map workshop](https://github.com/mapbox/workshops/tree/gh-pages/SoTM-2017) at Aizu-Wakamatsu, Japan on 2017-08-20
 15. [Interactive visualizations for Remote sensing analysis](https://github.com/mapbox/workshops/tree/gh-pages/SOTM-Asia-2017-Satellite-Workshop) at SotM Asia 2017, Kathmandu, Nepal on 2017-09-24
 16. [OSMGeoWeek Mapilary Mapathon 2017](https://github.com/mapbox/workshops/tree/gh-pages/OSMGeoweek-Nov-2017) at Mapbox BLR on 2017-11-17
+17. [GeoViz workshop](https://github.com/mapbox/workshops/tree/gh-pages/Ashoka-Geoviz-2018) at Ashoka University on 2018-02-22 and 2018-02-23
+18. [OpenStreetMap - OpenStreetMap - Contribute, extract, analyse and visualise](https://github.com/mapbox/workshops/tree/gh-pages/OSM-Session-CEPT) at CEPT University, Ahmedabad, India on 2018-03-08
