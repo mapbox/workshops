@@ -1,12 +1,12 @@
 ## OpenStreetMap - Contribute, extract, analyse and visualise
 
--- 
 
 **8th of March** | **[Centre for Environmental Planning and Technology](http://cept.ac.in/), Ahmedabad, India**
 
 [Jinal Foflia](https://in.linkedin.com/in/jinalfoflia) - jinal@mapbox.com | [@fofliajinal](https://twitter.com/fofliajinal)
 
--- 
+----
+
 ### Contribute
 
 #### Getting started with OpenStreetMap
