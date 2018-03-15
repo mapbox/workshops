@@ -1,4 +1,4 @@
-## OpenStreetMap - Contribute, extract, analyse and visualise
+# OpenStreetMap - Contribute, extract, analyse and visualise
 
 
 **8th of March** | **[Centre for Environmental Planning and Technology](http://cept.ac.in/), Ahmedabad, India**
@@ -7,9 +7,9 @@
 
 ----
 
-### Contribute
+## Contribute
 
-#### Getting started with OpenStreetMap
+### Getting started with OpenStreetMap
 
 - Sign up [here](https://www.openstreetmap.org/), if you are just getting started with OpenStreetMap
 
@@ -19,7 +19,7 @@
 - How to map buildings. For more: https://www.mapbox.com/mapping/
 
 
-##### Highway classification
+#### Highway classification
 
 Roads are added with the tag `highway=*`
 - Residential roads `highway=residential` - http://wiki.openstreetmap.org/wiki/Tag:highway%3Dresidential
@@ -27,7 +27,7 @@ Roads are added with the tag `highway=*`
 - Paths `highway=path` - http://wiki.openstreetmap.org/wiki/Tag:highway%3Dpath
 - Unclassified road`highway=unclassified` - http://wiki.openstreetmap.org/wiki/Tag:highway%3Dunclassified
 
-### Extract
+## Extract
 
 [Overpass turbo](http://overpass-turbo.eu) is a web based [data mining (extracting) tool](https://wiki.openstreetmap.org/wiki/Overpass_turbo) for OpenStreetMap. The source code is found [on github](https://github.com/tyrasd/overpass-turbo). 
  
@@ -37,14 +37,14 @@ Roads are added with the tag `highway=*`
 - [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) is a read-only API that serves up custom selected parts of the OSM map data.
 
 
-### Analyse
+## Analyse
 
 - [Spatial analysis](https://www.mapbox.com/help/how-analysis-works/) - Spatial analysis includes a variety of techniques and processes used to understand the patterns and relationships of geographic features. Turf, an open source project maintained by Mapbox, is an advanced geospatial JavaScript library that allows you to perform spatial operations in the browser.
 - [Turf.js](http://turfjs.org/) - Turf.js is a JavaScript library for spatial analysis. It includes traditional spatial operations, helper functions for creating GeoJSON data, and data classification and statistics tools. Turf can be added to your website as a client-side plugin, or you can [run Turf server-side](https://www.npmjs.com/package/turf) with [Node.js](http://nodejs.org/). You can find the source code on [GitHub](https://github.com/turfjs/turf).
 - [Analyze data with Turf.js and Mapbox GL JS](https://www.mapbox.com/help/analysis-with-turf/) - This guide walks through the basics of Turf.js, a JavaScript library used for spatial analysis and statistics, and how to use it to add spatial analysis to your Mapbox GL JS maps.
 - [QGIS](https://en.wikipedia.org/wiki/QGIS) - QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data. Find various [tutorials](https://www.qgistutorials.com/en/) related to using QGIS
 
-### Visualise
+## Visualise
 
 [Mapbox Studio](https://www.mapbox.com/studio) is your home base for building custom maps with Mapbox. [This manual](https://www.mapbox.com/help/studio-manual/) contains information on how Mapbox Studio works, some guidance on best practices, and a comprehensive application reference.
 
@@ -58,7 +58,7 @@ Here are few tutorials from our previous workshops that you can refer to
 - [Futuristic Map Design workshop at Dfrost 2017](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map)
  
 
-### Other interesting projects that's used either of the above
+## Other interesting projects that's used either of the above
 
 - POI finder - https://oini.github.io/poi-finder/
 - Chennai Flood Maps - https://osm-in.github.io/flood-map/chennai.html#11.65/13.0493/80.2593
