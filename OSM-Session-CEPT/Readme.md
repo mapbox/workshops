@@ -1,7 +1,7 @@
 # OpenStreetMap - Contribute, extract, analyse and visualise
 
 
-**8th of March** | **[Centre for Environmental Planning and Technology](http://cept.ac.in/), Ahmedabad, India**
+**8th of March** | **CEPT ([Centre for Environmental Planning and Technology](http://cept.ac.in/)), Ahmedabad, India**
 
 [Jinal Foflia](https://in.linkedin.com/in/jinalfoflia) - jinal@mapbox.com | [@fofliajinal](https://twitter.com/fofliajinal)
 
@@ -56,7 +56,7 @@ Here are few tutorials from our previous workshops that you can refer to
 - [Webinar: Introduction to Mapbox Studio](https://github.com/mapbox/workshops/tree/gh-pages/HOT-webinar-2017)
 - [Workshop: Designing custom maps for your brand](https://github.com/mapbox/workshops/tree/gh-pages/branding-workshop)
 - [Futuristic Map Design workshop at Dfrost 2017](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2017-scifi-map)
- 
+- [Instant maps with Cartogram](https://blog.mapbox.com/instant-maps-with-cartogram-5854e65ba4c3)
 
 ## Other interesting projects that's used either of the above
 
