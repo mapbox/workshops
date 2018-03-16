@@ -25,22 +25,18 @@ Here are a few resources you'll need before getting started:
 - and viola, you have a beautiful custom map! 🙂 
 - Add that style to Mapbox Studio to customise it further more! 
 
-![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521134345169_cartogram.gif)
-
+![cartogram](https://user-images.githubusercontent.com/17887418/37541196-a778511a-297f-11e8-84ab-179905496615.gif)
 
 
 ## To Mapbox Studio: 
-
 
 - Download the common image.
 - Play around with cartogram and customise the map according to image.
 - Click the saved style button to open your cartogram style on Mapbox Studio. 
 
-
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521134491486_image.png)
 
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521220720683_Screen+Shot+2018-03-16+at+10.44.11+AM.png)
-
 
 ## Mapbox Studio: 
 
@@ -100,7 +96,6 @@ _Group the elements to the same type for easier editing and understanding of hie
 
 - Select the layer `national` and set the colour #bdbdbd. Follow the same steps to change the colours for the borders or if you wish, you can retain the colours the cartogram has picked out for them. 
 
-
 #### Style roads
 
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521133306487_image.png)
@@ -130,7 +125,6 @@ _Group the elements to the same type for easier editing and understanding of hie
 
 - Download the svgs and load it in Studio icon set. Set the icons for poi layer as `{maki}-11`
 
-
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521221961304_image.png)
 
 - Create a custom pattern using heropatterns.com
@@ -138,7 +132,6 @@ _Group the elements to the same type for easier editing and understanding of hie
 - Copy the layer for which you want to add the pattern 
 - In the layer, click on pattern field and chose icon tab. Upload the svg you want use as a pattern and chose the svg. 
 - Set the opacity to low value, so the pattern doesn’t appear too distinct and nicely blends into the background. 
-
 
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521222077659_patterns.gif)
 
