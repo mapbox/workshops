@@ -23,3 +23,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 16. [OSMGeoWeek Mapilary Mapathon 2017](https://github.com/mapbox/workshops/tree/gh-pages/OSMGeoweek-Nov-2017) at Mapbox BLR on 2017-11-17
 17. [GeoViz workshop](https://github.com/mapbox/workshops/tree/gh-pages/Ashoka-Geoviz-2018) at Ashoka University on 2018-02-22 and 2018-02-23
 18. [OpenStreetMap - Contribute, extract, analyse and visualise](https://github.com/mapbox/workshops/tree/gh-pages/OSM-Session-CEPT) at CEPT University, Ahmedabad, India on 2018-03-08
+19. [dFrost 2018 - Image maketh a map!](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2018-image-maketh-a-map) at NID - Bangalore on 2018-03-17
