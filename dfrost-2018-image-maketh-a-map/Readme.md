@@ -11,6 +11,11 @@ Here are a few resources you'll need before getting started:
 - Mapbox account: Sign up for free at [Mapbox](https://www.mapbox.com/signup/)
 - Quick intro to Mapbox Studio: While we’ll cover most topics in this workshop,[here’s a glimpse of how Mapbox Studio is structured.](https://www.mapbox.com/help/studio-manual/)
 
+## How would it look?!
+
+
+![image](https://user-images.githubusercontent.com/17887418/37551658-f07575ce-29c9-11e8-8f3c-796551114ad5.png)
+
 
 ## → Let’s head to 
 
@@ -51,7 +56,7 @@ Here are a few resources you'll need before getting started:
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521129732430_image.png)
 
   - Click on the water layer in the layer list
-  - When the layer panel opens, change the `Color` field to #11142c
+  - When the layer panel opens, change the `Color` field to #11142c, the water will look slightly darker than the background, making the layers easier to distinguish.
   - Click on the waterway layer in the layer list
   - When the layer panel opens, change the `Color` field to #11142c
 
@@ -65,21 +70,23 @@ _Group the elements to the same type for easier editing and understanding of hie
 - Click on the groups for the Properties to show up.
 - Click on colour tab and set the values accordingly: 
       - Country labels: #e679b7 - State labels: #f5ca84 - Marine: #8fbdea 
-      - Place labels 1: #fcccab - Place labels 2: #f0f8b4        
+      - Place labels 1: #fcccab - Place labels 2: #f0f8b4 - Road labels: #efd4fc - Transit and waterway: #e1e2e3
+      - POI labels: #deb5dc
   - In the list of layers, select the layers you want the similar colours for and change the colours accordingly.
   - Change the `text halo color` field to #702e2a
   - Click on the font tab and make the changes accordingly
-  - When the layer panel opens, make the changes to the font.
+  - When the layer panel opens, make the changes to the font. `Press Start 2P`and `Minecraft` make the font look pixelated! That's kinda the whole theme :) 
   
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521130732295_image.png)
 
 - You can also make changes to all the layers at once by filtering the layers you want and changing the properties at once. 
     - Change `Arial Unicode MS Regular` to `Press Start 2P` 
-    - Change `Arial Unicode MS Regular` to `Minecraft` — font to download: 
+    - Change `Arial Unicode MS Regular` to `Minecraft` 
   
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521131985226_fonts.gif)
 
-  - Change the colours and fonts of all layers according to the colour palette: colours [link]
+  - Change the colours and fonts of all layers according to the colour palette 
+  
   
 #### Style landuse
 
