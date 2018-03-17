@@ -2,7 +2,7 @@
 _Cartogram and Mapbox Studio workshop_ 
 
 Resources: 
-[resources.zip](https://github.com/mapbox/navigation-data/files/1820568/resources.zip)
+[resources.zip](https://github.com/mapbox/workshops/blob/gh-pages/dfrost-2018-image-maketh-a-map/resources.zip?raw=true)
 
 
 ## Getting Started: 
@@ -22,7 +22,7 @@ Here are a few resources you'll need before getting started:
 
 ## Cartogram: 
 
-[Cartogram](www.mapbox.com/cartogram)
+[Cartogram](https://mapbox.com/cartogram/)
 
 - Choose any image that will act as a reference to the style.
 - Upload the image in the viewer to get started.
