@@ -145,7 +145,7 @@ _Group the elements to the same type for easier editing and understanding of hie
 
 ## Share your map with us! 
 
-Make your own custom map using [Cartogram](www.mapbox.com/cartogram) and [Studio](www.mapbox.com/studio) and share it with us using hashtag #maphackweekend and tag @Mapbox on Twitter!! :) 
+Make your own custom map using [Cartogram](www.mapbox.com/cartogram) and [Studio](www.mapbox.com/studio) and share it with us using hashtag #weekendmaphack and tag @Mapbox on Twitter!! :) 
 
 ## More tutorials and help
 - Check out the [Mapbox Studio Manual](https://www.mapbox.com/help/studio-manual/) for more guides
