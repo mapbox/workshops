@@ -142,6 +142,11 @@ _Group the elements to the same type for easier editing and understanding of hie
 
 ![image](https://d2mxuefqeaa7sj.cloudfront.net/s_DB0EA5140564ADD762B2C0391467A0B1752AB12F822276C533B3F444410B7A28_1521222077659_patterns.gif)
 
+## Share your map with us! 
+
+Make your own custom map using [Cartogram](www.mapbox.com/cartogram)and [Studio](www.mapbox.com/studio) and share it with us using hashtag #maphackweekend and tag @Mapbox on Twitter!! :) 
+
 ## More tutorials and help
 - Check out the [Mapbox Studio Manual](https://www.mapbox.com/help/studio-manual/) for more guides
 - Check out the [Mapbox GL JS examples](https://www.mapbox.com/mapbox-gl-js/examples/) to see how to make these maps interactive
+
