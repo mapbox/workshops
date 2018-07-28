@@ -19,7 +19,7 @@ An interactive demo as a HTML page.
 Most often, you would have a dataset (in the form of a .csv, .geojson or other common geo-based data formats). For this workshop, we’ll start from scratch, and use data from OpenStreetMap.
 Find a particular type of data (OSM tags) you want to use. We’ll use bus stops in Milan, details of which can be found on the [OSM wiki page](http://wiki.osm.org/) for [bus stops](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dbus_stop).
 
-These are defined as `[highway](https://wiki.openstreetmap.org/wiki/Key:highway)``=``**bus_stop**`
+These are defined as [highway=bus_stop](https://wiki.openstreetmap.org/wiki/Key:highway).
 
 
 ## **Extracting** **small** **data from OSM**
@@ -208,7 +208,7 @@ map.on('click', function(e) {
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_F042C157DC48532E7BD88EF4A3FC214820003375D03DB80E9873B62EE2667C9F_1532116623866_overpass_turbo.png)
 
 - Instead of bus stop us a more complex feature. What about power stations?
-- [Deploy your HTML page to Github pages](https://pages.github.com/) and tag us on Twitter with  @mapbox`
+- [Deploy your HTML page to Github pages](https://pages.github.com/) and tag us on Twitter with  @mapbox
 [](https://pages.github.com/)
  
 
