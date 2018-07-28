@@ -1,5 +1,4 @@
-# [OSM + Mapbox GL JS + Mapbox Studio workshop](https://2018.stateofthemap.org/2018/W017-Building_your_OSM_web_app_in_minutes_with_vector_tiles/
-)
+# [OSM + Mapbox GL JS + Mapbox Studio workshop](https://2018.stateofthemap.org/2018/W017-Building_your_OSM_web_app_in_minutes_with_vector_tiles/)
 
 ## **Getting started**
 
@@ -10,7 +9,9 @@ You’ll only need to sign up to a Mapbox account at [Mapbox.com](https://www.ma
 
 ## **Final result**
 
-An interactive demo
+An interactive demo as a HTML page.
+
+![b8qdgbifvb](https://user-images.githubusercontent.com/1288339/43360986-d739dc68-92c3-11e8-96c1-99ecb117129a.gif)
 
 
 ## **Finding a theme**
@@ -55,15 +56,15 @@ Install [Osmium Tool](https://osmcode.org/osmium-tool/). This can be tricky for 
 Using the [osmium tags-filter command](https://docs.osmcode.org/osmium/latest/osmium-tags-filter.html) you can filter the OSM PBF down to the data you want to include.
 
 ```bash
-    osmium tags-filter --output ./cyprus-latest.bus_stop.osm.pbf ./cyprus-latest.osm.pbf 'n/highway=bus_stop'
+osmium tags-filter --output ./cyprus-latest.bus_stop.osm.pbf ./cyprus-latest.osm.pbf 'n/highway=bus_stop'
 ```
 
 Using the [osmium export command](https://docs.osmcode.org/osmium/latest/osmium-export.html) you can turn the OSM PBF into a GeoJSON or a line delimited GeoJSON file.
 
 ```bash
-    osmium export ./cyprus-latest.bus_stop.osm.pbf \
-      -f geojsonseq \
-      --omit-rs > cyprus_bus_stops.ld.geojson
+osmium export ./cyprus-latest.bus_stop.osm.pbf \
+  -f geojsonseq \
+  --omit-rs > cyprus_bus_stops.ld.geojson
 ```
 
 Mapbox Studio can create vector tiles for you from nearly any GIS format.
@@ -72,11 +73,11 @@ However you can also create vector tiles yourself locally using tippecanoe.
 Install [tippecanoe](https://github.com/mapbox/tippecanoe) with `brew install tippecanoe`. 
 
 ```bash
-    tippecanoe \
-      -f ./cyprus_bus_stops.ld.geojson \
-      -o ./cyprus_bus_stations.mbtiles \
-      -zg --drop-densest-as-needed \
-      -l bus_stations
+tippecanoe \
+  -f ./cyprus_bus_stops.ld.geojson \
+  -o ./cyprus_bus_stations.mbtiles \
+  -zg --drop-densest-as-needed \
+  -l bus_stations
 ```
 
 Now upload the `cyprus_bus_stations.mbtiles` as a new tileset in Mapbox Studio.
@@ -135,32 +136,32 @@ We are following parts of https://www.mapbox.com/help/add-points-pt-3/.
 We create an HTML page.
 
 ```html
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset='utf-8' />
-        <title>Build a map with Mapbox GL JS at SOTM2018</title>
-        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
-        <style>
-          body { margin: 0; padding: 0; }
-          #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        </style>
-      </head>
-      <body>
-        <div id='map'></div>
-        <script>
-        mapboxgl.accessToken = 'pk.eyXX'; // replace this with your access token
-        var map = new mapboxgl.Map({
-          container: 'map',
-          style: 'your-style-URL-here', // replace this with your style URL
-          hash: true
-        });
-        // code from the next step will go here
-        </script>
-      </body>
-    </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Build a map with Mapbox GL JS at SOTM2018</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body { margin: 0; padding: 0; }
+      #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyXX'; // replace this with your access token
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'your-style-URL-here', // replace this with your style URL
+      hash: true
+    });
+    // code from the next step will go here
+    </script>
+  </body>
+</html>
 ```
 
 If we open that HTML page you should now see your map.
@@ -170,22 +171,22 @@ If we open that HTML page you should now see your map.
 We are going to add a little Popup that shows the `name` , `ref`, and `operator` of the bus stop  when you hover over it.
 
 ```js
-    map.on('click', function(e) {
-      var features = map.queryRenderedFeatures(e.point, {
-        layers: ['bus-stops-milano-8ol8th'] // replace this with the name of the layer
-      });
-    
-      if (!features.length) {
-        return;
-      }
-    
-      var feature = features[0];
-      var popup = new mapboxgl.Popup({ offset: [0, -15] })
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.operator + '/' + feature.properties.ref + '</p>')
-        .setLngLat(feature.geometry.coordinates)
-        .addTo(map);
-    });
+map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['bus-stops-milano-8ol8th'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.operator + '/' + feature.properties.ref + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});
 ```
 
 ## 
@@ -203,12 +204,8 @@ We are going to add a little Popup that shows the `name` , `ref`, and `operator`
 - Display all bus routes on the map
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_F042C157DC48532E7BD88EF4A3FC214820003375D03DB80E9873B62EE2667C9F_1532815163699_overpass_turbo.png)
 
-
-
 - Select all the features you edited over time and show them on a map!
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_F042C157DC48532E7BD88EF4A3FC214820003375D03DB80E9873B62EE2667C9F_1532116623866_overpass_turbo.png)
-
-
 
 - Instead of bus stop us a more complex feature. What about power stations?
 - [Deploy your HTML page to Github pages](https://pages.github.com/) and tag us on Twitter with  @mapbox`
