@@ -30,4 +30,4 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 
 These are workshops based on Mapbox tools run by the partners and the community. 
 
-1. [Decompress 2018 - Visualising Geodata with Mapbox Workshop](https://sites.google.com/view/mapbox-decompress-2018/) Sarah Goodwin (RMIT/Monash), Katerina Pavkova (RMIT/Monash) and Stefan von Cavallar (IBM), _Visualising new and proposed building developments in 3D with Mapbox GL JS_.
+1. [Decompress 2018 - Visualising Geodata with Mapbox Workshop](https://sites.google.com/view/mapbox-decompress-2018/) by Sarah Goodwin (RMIT/Monash), Katerina Pavkova (RMIT/Monash) and Stefan von Cavallar (IBM), _Visualising new and proposed building developments in 3D with Mapbox GL JS_.
