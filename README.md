@@ -25,9 +25,3 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 18. [OpenStreetMap - Contribute, extract, analyse and visualise](https://github.com/mapbox/workshops/tree/gh-pages/OSM-Session-CEPT) at CEPT University, Ahmedabad, India on 2018-03-08
 19. [dFrost 2018 - Image maketh a map!](https://github.com/mapbox/workshops/tree/gh-pages/dfrost-2018-image-maketh-a-map) at NID - Bangalore on 2018-03-17
 20. [OSM + Mapbox GL JS + Mapbox Studio workshop](https://github.com/mapbox/workshops/tree/gh-pages/osm-mapbox-gl-studio-Jul-2018) at State of the Map Global 2018, Milan, Italy on 2018-07-30
-
-### Mapbox Workshops by the Community
-
-These are workshops based on Mapbox tools run by the partners and the community. 
-
-1. [Decompress 2018 - Visualising Geodata with Mapbox Workshop](https://sites.google.com/view/mapbox-decompress-2018/) by Sarah Goodwin (RMIT/Monash), Katerina Pavkova (RMIT/Monash) and Stefan von Cavallar (IBM), _Visualising new and proposed building developments in 3D with Mapbox GL JS_.
