@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Causes of Deaths in Tanzania</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://api.mapbox.com/mapbox-assembly/v0.23.0/assembly.min.css" rel="stylesheet">
+  <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.23.0/assembly.js"></script>
+</head>
+<body>
+<div class='flex-parent viewport-full relative clip'>
+  <!-- insert sidebar here -->
+  <div class="flex-child w-full w240-ml absolute static-ml left bottom">
+    <div class="flex-parent flex-parent--column viewport-third h-full-ml hmax-full">
+      <div class="flex-child flex-child--grow py12 px12 scroll-auto">
+        <h2 class="txt-xl txt-bold mb6">Deaths in Tanzania</h2>
+        <p class="txt-s"><strong class="txt-bold">Number and causes of death occured</strong> (2013) <br><strong class="txt-bold">Source:</strong> <a class="link link--blue-light" target="_blank" href="http://opendata.go.tz/dataset/number-and-causes-of-death-occured-by-region">http://opendata.go.tz/</a></p>
+        <div id="filter-ui" class="mt12">
+          <h4 class="txt-m txt-bold mb6">Cause of death</h4>
+            <label class="radio-container">
+            <input type="radio" name="radio-filter" value="deaths_2013_Total" checked="">
+            <div class="radio mr6"> </div>
+            <span>Total</span>
+          </label><br>
+          <label class="radio-container">
+            <input type="radio" name="radio-filter" value="deaths_2013_Malaria- Severe, Complicated">
+            <div class="radio mr6"> </div>
+            <span>Malaria</span>
+          </label><br>
+          <label class="radio-container">
+            <input type="radio" name="radio-filter" value="deaths_2013_Diabetes Mellitus">
+            <div class="radio mr6"> </div>
+            <span>Diabetes Mellitus</span>
+          </label><br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='map' class='flex-child flex-child--grow bg-darken10 viewport-twothirds viewport-full-ml'></div>
+</div>
+<script>
+var dataRanges = {
+  'deaths_2013_Total': [301, 1196, 2090],
+  'deaths_2013_Malaria- Severe, Complicated': [39, 234.5, 430],
+  'deaths_2013_Diabetes Mellitus': [1, 33, 65]
+};
+
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibHVrYXNtYXJ0aW5lbGxpIiwiYSI6ImNpem85dmhwazAyajIyd284dGxhN2VxYnYifQ.HQCmyhEXZUTz3S98FMrVAQ';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/lukasmartinelli/cjl375rpu1o5e2sqnmn3m6ssv',
+    zoom: 6,
+    center: [35.170672, -8.459891],
+    pitch:0,
+    bearing:0,
+    hash:true
+});
+
+map.on('load', function () {
+  // add zoom and rotation controls to the map.
+  map.addControl(new mapboxgl.NavigationControl());
+  setupPopupHandler();
+  setupFilters();
+});
+
+
+function setupPopupHandler() {
+  var popup = new mapboxgl.Popup({
+      closeButton: false,
+      closeOnClick: false
+  });
+
+  map.on('mousemove', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {layers: ['tanzania_deaths']});
+    if(!features.length) {
+      map.getCanvas().style.cursor = '';
+      popup.remove();
+    } else if (features.length > 0) {
+      map.getCanvas().style.cursor = 'pointer';    
+      var hoveredFeature = features[0];
+      var props = hoveredFeature.properties;
+      var popupHtml = "<b>Diabetes Mellitus:</b>"
+        + "<span>" + props['deaths_2013_Diabetes Mellitus'] + "</span><br />"
+        + "<b>Malaria severe:</b>"
+        + "<span>" + props['deaths_2013_Malaria- Severe, Complicated'] + "</span>"
+        + "<hr class='txt-hr my3'>"
+        + "<b>Total Deaths:</b>"
+        + "<span>" + props['deaths_2013_Total'] + "</span>";
+      
+      popup.setLngLat(e.lngLat)
+           .setHTML(popupHtml)
+           .addTo(map);
+    }
+  });
+}
+
+function setupFilters() {
+  var filterContainer = document.getElementById('filter-ui');
+  var filterList = filterContainer.getElementsByTagName('input');
+
+  for (var i = 0; i<filterList.length; i++) {
+    filterList[i].onclick = function(e) {
+      var field = e.target.value;
+      var stops = dataRanges[field];
+      colorRegions(field, stops);
+    };
+  }
+}
+
+function colorRegions(interpolationField, stops) {
+  if (stops.length < 3) throw new Error('Need to provide at least 3 stops to interpolate across');
+  map.setPaintProperty('tanzania-deaths', 'fill-color', [
+    "interpolate",
+    ["linear"],
+    ["get", interpolationField],
+    stops[0], "#fee8c8",
+    stops[1], "#fdbb84",
+    stops[2], "#e34a33"
+  ]);
+}
+
+
+</script>
+
+<style>
+.mapboxgl-popup-content b {
+  display: inline-block;
+  width: 9em;
+}
+.mapboxgl-popup-content span {
+  display: inline-block;
+  min-width: 4em;
+  text-align: right;
+}
+</style>
+</body>
+</html>
