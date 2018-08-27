@@ -1,38 +1,52 @@
-# Mapbox Workshop FOSS4G 2018
-
-> This workshop will cover working with Mapbox GL, Turf JS, and vector tiles. The goal of the activity is to show, in a hands-on way, how developers can use open source tools from the Mapbox GL ecosystem to create interactive, dynamic data visualizations from scratch.
-## 
-
+# Workshop FOSS4G
 We guide through how to go from a open vector data to vector tiles and use it to create visualizations in a 5 step workshop.
 
+The workshop will be containing introductions into vector tiles, Mapbox Studio Mapbox GL with exercises in between to work towards a data visualization as end result.
 
-## Outline
-1. Find your [Vector Data](https://mangomap.com/gis-data)
-  1. Get to know the formats (SHP, CSV, GeoJSON, OSM PBF)
-  2. Great open data sets
-    1. [OpenStreetMap](https://download.geofabrik.de/)
-    2. [World Bank](https://datacatalog.worldbank.org/dataset/tanzania-roads)
-2. Processing
-  1. Join your tabular data with your vector data in QGIS (also possible with [tippecanoe join](https://github.com/mapbox/tippecanoe#tile-join))
-3. Turn into Vector tiles
-  1. using tippecanoe
-  2. or by uploading to Mapbox.com
-4. Styling
-  1. Using Mapbox Studio to create a choropleth map
-  2. What is Mapbox GL and how does it work
-  3. What is the Mapbox style specification
-5. Publish to the web
-  1. Using Mapbox GL JS to filter the data you’ve added
+As part of the workshop we are going to create a map visualization of the causes of deaths in different regions in Tanzania.
+
+You can follow along with the workshop documents on GitHub.
+👉🏽 https://github.com/mapbox/workshops/tree/foss4g/foss4g-2018
+
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535352649059_FXvJmgqlem.gif)
+
+
+**Workshop steps**
+
+1. Sourcing: We pick the data and prepare it
+2. Processing: We join a tabular data set towards a spatial data set
+3. Tiling: We turn the spatial data into vector tiles
+4. Styling: We use Mapbox Studio to create a choropleth map
+5. Publishing: We create a website using Mapbox GL JS for a data visualization
+
+**Introductions**
+
+- Mapbox Vector Tiles
+- Mapbox Studio
+- Mapbox GL
+- Mapbox Style specification
+
+ 
+ **Tools**
+
+- QGIS
+- tippecanoe (*optional)* 
+- Mapbox Studio
 
 
 ----------
-
-
 ## 1. Vector Data
 
 Before you create any visualization you will start with the source data that you have available.
 Sometimes you have to create it yourself, other times you have a proprietary data set or in the best case you are able to use an open data portal to source your vector data.
-For example the [World Bank data catalog](https://datacatalog.worldbank.org/) now provides spatial datasets as well. A good source for building any low scale map is [Natural Earth](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/).
+
+Open data sets:
+
+- open data catalogs of countries, cities and states e.g. http://opendata.go.tz
+- [World Bank data catalog](https://datacatalog.worldbank.org/)
+- [Natural Earth](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/) for cartographic data
+- [OpenStreetMap](https://download.geofabrik.de/)
 
 In this example we want to focus on comparing a data attribute across different sub units of a country (in the case of Tanzania “[regions](https://en.wikipedia.org/wiki/Regions_of_Tanzania)”).
 
@@ -44,32 +58,17 @@ On the [Basic Statistics Portal](http://opendata.go.tz/) of Tanzania we can find
 
 👉🏽  Go to  http://opendata.go.tz/dataset/number-and-causes-of-death-occured-by-region and download the CSV for “Number and causes of death 5 and above years-2013”.
 
-Save it as `deaths_2013` and open it in a spreadsheet editor.
+Save it as `tanzania-deaths-above-5-years-2013.csv`  and open it in a spreadsheet editor.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535334355782_deaths_2013.png)
 
 
-We will later be able to load that CSV file into QGIS but first we need to create a [CSVT file](https://anitagraser.com/2011/03/07/how-to-specify-data-types-of-csv-columns-for-use-in-qgis/) that describes which data types our columns are in (number or text).
-
-The easiest way to complete that is to add a new header row and fill in the types for each column and then save it as CSV again.
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535335391545_deaths_2013.png)
-
-
-Now delete all the other rows except the first header row and save it with the same filename but with `.csvt` as suffix. If you look at your csvt file in a text editor make sure you have quotes wrapped around each field.
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535335734051_Banners_and_Alerts_and_deaths_2013_csvt_and_how_to_create_a_csvt_file_-_Google_Search.png)
-
-
 **Picking a spatial data set**
-In order to visualize the number of deaths across regions  we have to find shapes for the appropriate 25 regions.
-
-From the World Bank we can already find regional boundaries for Tanzania.
+In order to visualize the number of deaths across regions  we have to find shapes for the regions data got surveyed. From the World Bank we can already find regional boundaries for Tanzania.
 
 👉🏽  Go to  https://energydata.info/dataset/tanzania-region-district-boundary-2012 and download the zipped Shapefile for “Region bounday”.
 
-As first step we are going to unzip the Shapefile and load the regions into QGIS to visualize them.
-If we load the regions into QGIS we can explore them.
+As first step we are going to unzip the Shapefile and load the regions into QGIS to visualize them. If we load the regions into QGIS we can explore them.
 
 Drop the Shapefile into QGIS.
 
@@ -85,9 +84,21 @@ Let’s assign a label to each boundary polygon by clicking on the layer and cho
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535334775349_QGIS_2_18_2.png)
 
 
+**Creating a CSVT**
+We will later be able to load that CSV file into QGIS but first we need to create a [CSVT file](https://anitagraser.com/2011/03/07/how-to-specify-data-types-of-csv-columns-for-use-in-qgis/) that describes which data types our columns are in (number or text).
+
+The easiest way to complete that is to add a new header row and fill in the types for each column and then save it as CSV again.
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535335391545_deaths_2013.png)
+
+
+Now delete all the other rows except the first header row and save it with the same filename but with `.csvt` as suffix. If you look at your csvt file in a text editor make sure you have quotes wrapped around each field.
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535335734051_Banners_and_Alerts_and_deaths_2013_csvt_and_how_to_create_a_csvt_file_-_Google_Search.png)
+
+
 
 >  We also get the total population to join http://www.nbs.go.tz/nbstz/index.php/english/statistics-by-subject/population-and-housing-census/844-tanzania-total-population-by-district-regions-2016.
-
 
 
 ## 2. Processing
@@ -131,7 +142,67 @@ If you click “Classify” QGIS will automatically build a histogram and a colo
 At this point we created a static choropleth map in QGIS.
 In order to tell compelling stories our steps from here will show how to create the equivalent for the web to build a dynamic data visualization.
 
-👨🏽‍🏫 Introduction into vector tiles
+
+## 👨🏽‍🏫 🗣️ What are vector tiles
+
+**What are Tiles?**
+
+Raster map: 
+
+- Send one large image for viewport
+- **Tiles:** Send many small square images
+
+Advantages
+
+  - Better performance
+  - Caching and pre-computing
+
+See it in action: http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/
+
+
+![](https://lh6.googleusercontent.com/nW6f25M01-dLTshO7sXRdawO4oO8Eo14DKLJ3RedtJ5bZOy6tbgxpbOXY3xENtFU6vLSVboGsxthq80dchBv5qKOFD0GybXHafZkZ1wh25RMsOXm33p0WQbaP2QmTjl1gm6FjWtOG3w)
+
+
+**What are vector tiles?**
+
+Vector Map
+
+- **Tiles are great!**
+- Send encoded vector data (MVT)
+- Cut vector data into many small tiles
+
+Advantages
+
+- Better user experience
+- Style on Client
+- Smaller Size
+- **Create once, use everywhere!**
+
+
+![](https://lh3.googleusercontent.com/ypnHEIZVaM0yEdKIq8ytZDpVqVul3Y0B_iUbJk8iXofKRtmUMzjVwEFV3kIZiNUAlXQHtm3z1uT7ufG3ngPILF1-HoRWriVlFUap8xe4hr3DnXr2PA8j24TFNjiYNJ-IexR3uiyfmwk)
+
+
+**How geometries are encoded**
+https://www.mapbox.com/vector-tiles/specification/#encoding-geom
+
+**What do I need to create my own map?**
+
+![](https://lh4.googleusercontent.com/6G7sVFVjp2JZOBqavCtbBR-3w5l4jO0WC3IIecmhlyC30z_BmSNrJGDolAEJ3LWusvzXXPO7rPGg4mi9vHihVbWi6EtlrPijYjewKsvzlDNZCVT8BJHgxRnBSFWAMgwBK-eVlORj8d0)
+
+- Vector Tiles
+- Style Definition
+  - JSON document (Mapbox GL Style Specification)
+- Client Library
+  - Mapbox GL JS, Mapbox GL Native
+  - OpenLayers 3
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535374044803_SOTM_-_Google_Slides.png)
+
+
+**Peek behind the curtains:** http://mapbox-gl-inspect.lukasmartinelli.ch/#2.66/40.63/-74.09
+
+
+*Add link to presentation.*
+
 
 ----------
 
@@ -141,9 +212,8 @@ If you are working with small data as we are dealing here you are able to direct
 
 You can save your existing Shapefile as GeoJSON and the joined attributes will be included.
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535338418641_Save_vector_layer_as____and_QGIS_2_18_2_and__Regions____Features_total__30__filtered__30__selected__0_and_Upload_data_to_Mapbox___Mapbox.png)
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535357826430_Save_vector_layer_as____and_QGIS_2_18_2_and_geojson_epsg_-_Google_Search_and_Causes_of_Deaths_in_Tanzania.png)
 
-## 
 
 **Upload the GeoJSON to Mapbox**
 
@@ -158,41 +228,41 @@ After your GeoJSON has been processed successfully you will be able to inspect t
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535338849662_zs5BE0UvNT.gif)
 
 
-
 **Alternative: Turn the GeoJSON into vector tiles using tippecanoe**
 
-----------
+The open source tool tippecanoe can turn GeoJSON features into vector tiles. Using tippecanoe you have much more control how features are encoded into tiles.
 
-The open source tool tippecanoe can turn GeoJSON features into vector tiles.
-
-👉🏽 [Install tippecanoe](https://github.com/mapbox/tippecanoe)
+The [cook book](https://github.com/mapbox/tippecanoe#cookbook) specifies many different command line arguments for different use cases.
 
 We can turn the GeoJSON we saved earlier directly into vector tiles.
+👉🏽 [Install tippecanoe](https://github.com/mapbox/tippecanoe)
 
 
-    tippecanoe -o out.mbtiles -zg --drop-densest-as-needed $HOME/Documents/tanzania_deaths.geojson
+    tippecanoe -zg -o tanzania.mbtiles \
+      --buffer 128 \
+      --drop-densest-as-needed \
+      --extend-zooms-if-still-dropping $HOME/Documents/tanzania_deaths.geojson
 
 An MBTiles file can be uploaded to Mapbox or you could also serve it on your own using a tileserver like https://github.com/klokantech/tileserver-gl.
 
 
 ## Styling
 
-👨🏽‍🏫 Introduction to Mapbox Studio
+**👨🏽‍🏫 Introduction to Mapbox Studio**
 
 https://www.mapbox.com/help/choropleth-studio-gl-pt-1/
+https://www.mapbox.com/help/choropleth-studio-gl-pt-2/
+
+**Adding and inspecting the tileset in Mapbox Studio**
 
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1534825027145_Basic_Template___Mapbox_and_foss4g2018.png)
 
 
-I am using http://colorbrewer2.org/ to create color schemas.
-
+**Style the layer**
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1534827266368_Basic_Template___Mapbox.png)
 
-
-This is now a digital map you can use for story telling.
-But we want to get one step further.
 
 
 ## Interactivity
@@ -205,7 +275,7 @@ In the next step we want to take our static map
 
 
 **Display a map**
-As first step we create a HTML page that displays the map we made in Mapbox Studio.
+As first step we create a HTML page that displays the map we made in Mapbox Studio. You will need to copy your [style id](https://www.mapbox.com/help/define-style-id/) and access token from Mapbox studio.
 
 👉🏽 Follow along https://www.mapbox.com/mapbox-gl-js/example/simple-map/
 
@@ -225,12 +295,13 @@ We create a new file `index.html` with a HTML skeleton.
     </head>
     <body>
       <div class='flex-parent viewport-full relative clip'>
+        <!-- insert sidebar here -->
         <div id='map' class='flex-child flex-child--grow bg-darken10 viewport-twothirds viewport-full-ml'></div>
       </div>
     </body>
     </html>
 
-On top of Mapbox GL we also add a little CSS framework to get started quickly. https://www.mapbox.com/assembly/
+On top of Mapbox GL we also add CSS framework called [Assembly](https://www.mapbox.com/assembly/) we use at Mapbox to get started quickly.
 
 Now we need to initialize and add a map to the web page.
 
@@ -305,7 +376,7 @@ Now we need to initialize and add a map to the web page.
       setupPopupHandler();
     });
 
-**Change attribute to interpolate across**
+**Change attribute to interpolate**
 
 In Mapbox Studio we used the design editor to create our map. Under the hood
 Mapbox Studio creates a JSON file describing how the map data should be rendered (the GL style document).
@@ -330,16 +401,15 @@ The code to describe the choropleth layer.
       }
     }
 
-Let’s decompose this. The `fill` type describes that we want to color a polygon and the `fill-color` paint property describes a [linear interpolation expression](https://www.mapbox.com/help/mapbox-gl-js-expressions/).
+Let’s decompose this. The `fill` type describes that we want to color a polygon and the `fill-color` paint property describes a [interpolate expression](https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-interpolate). You can think of this expression as a small function that interpolates colors between several different color stops/data values.
  
  With `["get", "deaths_2013_Total"]` we describe the field we want to use to interpolate the color across.
- And with `301, "#fee8c8", 1196, "#fdbb84", 2090, "#e34a33"` we define our color range. Meaning from the value `301` we start with the color `#fee8c8` and until 1196 we interpolate it towards `#fdbb84` after which until 2090 we interpolate towards `#e34a33`.
+And with `301, "#fee8c8", 1196, "#fdbb84", 2090, "#e34a33"` we define our color range. Meaning from the value `301` we start with the color `#fee8c8` and interpolate linearly until at 1196 we interpolate it towards `#fdbb84` after which until 2090 we interpolate towards `#e34a33`.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535346867236_Basic_Template___Mapbox.png)
 
 
  
-
 If we want to switch out the attribute to interpolate across we have to change two arguments:
 
 - the name of the field
@@ -375,11 +445,15 @@ If we want to switch out the attribute to interpolate across we have to change t
 
 
 **Add sidebar**
+Below is code for a sidebar that allows choosing a different attribute to color the map by. Insert the `div` with the id `sidebar` where the `<!-- insert sidebar here -->` in the placeholder is.
+
+In the sidebar we are setting up a radio button for each attribute `<input type="radio" name="radio-filter" value="deaths_2013_Malaria- Severe, Complicated">` that contains the field name in the layer as value.
+When you click on that radio button, we are going to set up a handler that will change the style to interpolate the map according to that field.
 
 
     <div class='flex-parent viewport-full relative clip'>
       <!-- insert sidebar here -->
-      <div class="flex-child w-full w240-ml absolute static-ml left bottom">
+      <div id="sidebar" class="flex-child w-full w240-ml absolute static-ml left bottom">
         <div class="flex-parent flex-parent--column viewport-third h-full-ml hmax-full">
           <div class="flex-child flex-child--grow py12 px12 scroll-auto">
             <h2 class="txt-xl txt-bold mb6">Deaths in Tanzania</h2>
@@ -408,6 +482,25 @@ If we want to switch out the attribute to interpolate across we have to change t
       <div id='map' class='flex-child flex-child--grow bg-darken10 viewport-twothirds viewport-full-ml'></div>
     </div>
 
+In `setupFilters` we query all the radio buttons and attaching a click handler to it.
+Once activated we recolor the regions in the map using `colorRegions` with the field chosen and the specific stops for that field.
+
+
+    function setupFilters() {
+      var filterContainer = document.getElementById('filter-ui');
+      var filterList = filterContainer.getElementsByTagName('input');
+    
+      for (var i = 0; i< filterList.length; i++) {
+        filterList[i].onclick = function(e) {
+          var field = e.target.value;
+          var stops = dataRanges[field];
+          colorRegions(field, stops);
+        };
+      }
+    }
+
+And after the map is loaded we want to set up our filtering code.
+
 
     map.on('load', function () {
       // add zoom and rotation controls to the map.
@@ -418,5 +511,3 @@ If we want to switch out the attribute to interpolate across we have to change t
 
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6552AB0028AE719237B17030D756B0987E7502EBDA68BD604E8071746D1363EF_1535347901595_aHM7hCF5Dz.gif)
-
-
