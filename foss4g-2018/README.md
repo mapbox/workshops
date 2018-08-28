@@ -330,11 +330,12 @@ Let’s get started:
 - Now it’s time to start adding stops and colors! You will create several stops to break states up into groups with similar death rates. Click on **Edit** in the first density stop. Click on it and change the color to `#FFEDA0`. Click **Done**.
 - Click **+ Add another stop**. Change *density* to `2`, and change the color to `#FED976`. Click **Done**.
 - Create the following additional stops:
-    4: #FEB24C
-    6: #FD8D3C
-    8: #FC4E2A
-    10: #E31A1C
-    12: #BD0026
+    - 4: #d39e0d
+    - 6: #FD8D3C
+    - 8: #FC4E2A
+    - 10: #E31A1C
+    - 12: #BD0026
+    - 14: #7a0018
 
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5B86687B3D49AE1C0BA2F755830EE244397F5CEDEFFBBC1854E54252605FBB69_1535433143543_image.png)
