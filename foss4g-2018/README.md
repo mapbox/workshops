@@ -164,22 +164,22 @@ In order to tell compelling stories our steps from here will show how to create 
 
 ## 👨🏽‍🏫 🗣️ What are vector tiles
 
-**What are Tiles?**
+**What are raster tiles?**
 
 Raster map: 
-
 - Send one large image for viewport
 - **Tiles:** Send many small square images
 
 Advantages
-
   - Better performance
   - Caching and pre-computing
 
-See it in action: http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/
+- See it in action: http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/
+- Good introduction into quadkeys: https://msdn.microsoft.com/en-us/library/bb259689.aspx
+- How tiling map images works: https://github.com/perliedman/tiled-maps/
 
+![](https://github.com/perliedman/tiled-maps/raw/gh-pages/images/tiles.png)
 
-![](https://lh6.googleusercontent.com/nW6f25M01-dLTshO7sXRdawO4oO8Eo14DKLJ3RedtJ5bZOy6tbgxpbOXY3xENtFU6vLSVboGsxthq80dchBv5qKOFD0GybXHafZkZ1wh25RMsOXm33p0WQbaP2QmTjl1gm6FjWtOG3w)
 
 ### What are vector tiles?
 
@@ -192,8 +192,8 @@ Vector Map
 Advantages
 
 - Better user experience
-- Style on Client
-- Smaller Size
+- Style on client
+- Smaller size
 - **Create once, use everywhere!**
 
 
@@ -253,10 +253,12 @@ We can turn the GeoJSON we saved earlier directly into vector tiles.
 👉🏽 [Install tippecanoe](https://github.com/mapbox/tippecanoe)
 
 
-    tippecanoe -zg -o tanzania.mbtiles \
-      --buffer 128 \
-      --drop-densest-as-needed \
-      --extend-zooms-if-still-dropping $HOME/Documents/tanzania_deaths.geojson
+```bash
+tippecanoe -zg -o tanzania.mbtiles \
+  --buffer 128 \
+  --drop-densest-as-needed \
+  --extend-zooms-if-still-dropping $HOME/Documents/tanzania_deaths.geojson
+```
 
 An MBTiles file can be uploaded to Mapbox or you could also serve it on your own using a tileserver like https://github.com/klokantech/tileserver-gl.
 
