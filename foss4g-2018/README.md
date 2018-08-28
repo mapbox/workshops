@@ -360,9 +360,40 @@ In the next step we want to take our static map
 
 ### Introduction 👨🏽‍🏫 to Mapbox GL
 
-https://www.mapbox.com/help/how-map-design-works/ ****
+- How web maps work: https://www.mapbox.com/help/how-map-design-works/
+- The Mapbox GL JS SDK: https://www.mapbox.com/mapbox-gl-js/api/
+- Style specification (CSS for maps): https://www.mapbox.com/mapbox-gl-js/style-spec
+- Dynamic functions for data driven styling: https://www.mapbox.com/help/mapbox-gl-js-expressions/
+ 
+
+## The new era of interactive cartography
+
+Features:
+
+- cross platform
+- zoom and rotation
+- fly animations
+- weaving in new layers
+- data driven styling
+- any object can be interactive
+- because of a declarative styling language you can use a map designer (Mapbox studio) 
+- less bandwidth
+- label collision on the client
+- 87% of global internet browser support web gl, 95% in the US
+
+Under the hood:
+- Mapbox GL draws your geometries using many triangles (it's triangles all the way down)
+  - vertex shaders (transforms coordinates)
+  - fragment shaders (transforms colors)
+  - drawing fonts
+- Because of so many fundamental problems we have to solve there are some great libraries created as part of the process
+  - triangulation: https://github.com/mapbox/earcut
+  - 2d indexing: https://github.com/mourner/rbush
+  - packing many small rectangles into a big rectangle: https://github.com/mapbox/shelf-pack
+  - slice geojsons into vector tiles on the fly: https://github.com/mapbox/geojson-vt
 
 ### Display a map
+
 As first step we create a HTML page that displays the map we made in Mapbox Studio. You will need to copy your [style id](https://www.mapbox.com/help/define-style-id/) and access token from Mapbox studio.
 
 👉🏽 Follow along https://www.mapbox.com/mapbox-gl-js/example/simple-map/
