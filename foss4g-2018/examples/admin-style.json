@@ -1,0 +1,314 @@
+{
+    "version": 8,
+    "name": "Admin Style",
+    "center": [
+        35.82462292448065,
+        -4.251750830518233
+    ],
+    "zoom": 5.139619342727093,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "mapbox-streets": {
+            "url": "mapbox://mapbox.mapbox-streets-v7",
+            "type": "vector"
+        }
+    },
+    "sprite": "mapbox://sprites/lukasmartinelli/cjldbglat439j2sl4pc9hahiv",
+    "glyphs": "mapbox://fonts/lukasmartinelli/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "layout": {},
+            "paint": {
+                "background-color": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    5,
+                    "hsl(38, 43%, 89%)",
+                    7,
+                    "hsl(38, 48%, 86%)"
+                ]
+            }
+        },
+        {
+            "id": "national_park",
+            "type": "fill",
+            "source": "mapbox-streets",
+            "source-layer": "landuse_overlay",
+            "filter": [
+                "==",
+                "class",
+                "national_park"
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+        {
+            "id": "water",
+            "type": "fill",
+            "source": "mapbox-streets",
+            "source-layer": "water",
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    5,
+                    "hsl(205, 76%, 67%)",
+                    7,
+                    "hsl(205, 76%, 70%)"
+                ]
+            }
+        },
+        {
+            "id": "admin-state-province",
+            "type": "line",
+            "source": "mapbox-streets",
+            "source-layer": "admin",
+            "minzoom": 2,
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "maritime",
+                    0
+                ],
+                [
+                    ">=",
+                    "admin_level",
+                    3
+                ]
+            ],
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-dasharray": [
+                    "step",
+                    [
+                        "zoom"
+                    ],
+                    [
+                        "literal",
+                        [
+                            2,
+                            0
+                        ]
+                    ],
+                    7,
+                    [
+                        "literal",
+                        [
+                            2,
+                            2,
+                            6,
+                            2
+                        ]
+                    ]
+                ],
+                "line-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    7,
+                    0.75,
+                    12,
+                    1.5
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    2,
+                    0,
+                    3,
+                    1
+                ],
+                "line-color": [
+                    "step",
+                    [
+                        "zoom"
+                    ],
+                    "hsl(0, 0%, 80%)",
+                    4,
+                    "hsl(0, 0%, 65%)"
+                ]
+            }
+        },
+        {
+            "id": "admin-country",
+            "type": "line",
+            "source": "mapbox-streets",
+            "source-layer": "admin",
+            "minzoom": 1,
+            "filter": [
+                "all",
+                [
+                    "<=",
+                    "admin_level",
+                    2
+                ],
+                [
+                    "==",
+                    "disputed",
+                    0
+                ],
+                [
+                    "==",
+                    "maritime",
+                    0
+                ]
+            ],
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": "hsl(0, 0%, 50%)",
+                "line-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    3,
+                    0.5,
+                    10,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "country-label",
+            "type": "symbol",
+            "source": "mapbox-streets",
+            "source-layer": "country_label",
+            "minzoom": 1,
+            "maxzoom": 8,
+            "layout": {
+                "text-field": [
+                    "get",
+                    "name_en"
+                ],
+                "text-max-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    0,
+                    5,
+                    3,
+                    6
+                ],
+                "text-font": [
+                    "step",
+                    [
+                        "zoom"
+                    ],
+                    [
+                        "literal",
+                        [
+                            "Roboto Medium",
+                            "Arial Unicode MS Regular"
+                        ]
+                    ],
+                    4,
+                    [
+                        "literal",
+                        [
+                            "Roboto Bold",
+                            "Arial Unicode MS Bold"
+                        ]
+                    ]
+                ],
+                "text-size": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    2,
+                    [
+                        "step",
+                        [
+                            "get",
+                            "scalerank"
+                        ],
+                        13,
+                        3,
+                        11,
+                        5,
+                        9
+                    ],
+                    9,
+                    [
+                        "step",
+                        [
+                            "get",
+                            "scalerank"
+                        ],
+                        35,
+                        3,
+                        27,
+                        5,
+                        22
+                    ]
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1.5,
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-color": "hsl(0, 0%, 0%)"
+            }
+        }
+    ],
+    "created": "2018-08-28T06:14:17.065Z",
+    "id": "cjldbglat439j2sl4pc9hahiv",
+    "modified": "2018-08-28T06:20:36.001Z",
+    "owner": "lukasmartinelli",
+    "visibility": "private",
+    "draft": false
+}
