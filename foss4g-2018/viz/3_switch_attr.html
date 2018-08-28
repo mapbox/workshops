@@ -15,9 +15,9 @@
 </div>
 <script>
 var dataRanges = {
-  'deaths_2013_Total': [301, 1196, 2090],
-  'deaths_2013_Malaria- Severe, Complicated': [39, 234.5, 430],
-  'deaths_2013_Diabetes Mellitus': [1, 33, 65]
+  'Total': [301, 1196, 2090],
+  'Malaria- Severe, Complicated': [39, 234.5, 430],
+  'Diabetes Mellitus': [1, 33, 65]
 };
 
 
@@ -36,7 +36,7 @@ map.on('load', function () {
   // add zoom and rotation controls to the map.
   map.addControl(new mapboxgl.NavigationControl());
   setupPopupHandler();
-  colorRegions('deaths_2013_Diabetes Mellitus', dataRanges['deaths_2013_Diabetes Mellitus'])
+  colorRegions('Diabetes Mellitus', dataRanges['Diabetes Mellitus'])
 });
 
 
@@ -56,12 +56,12 @@ function setupPopupHandler() {
       var hoveredFeature = features[0];
       var props = hoveredFeature.properties;
       var popupHtml = "<b>Diabetes Mellitus:</b>"
-        + "<span>" + props['deaths_2013_Diabetes Mellitus'] + "</span><br />"
+        + "<span>" + props['Diabetes Mellitus'] + "</span><br />"
         + "<b>Malaria severe:</b>"
-        + "<span>" + props['deaths_2013_Malaria- Severe, Complicated'] + "</span>"
+        + "<span>" + props['Malaria- Severe, Complicated'] + "</span>"
         + "<hr class='txt-hr my3'>"
         + "<b>Total Deaths:</b>"
-        + "<span>" + props['deaths_2013_Total'] + "</span>";
+        + "<span>" + props['Total'] + "</span>";
       
       popup.setLngLat(e.lngLat)
            .setHTML(popupHtml)

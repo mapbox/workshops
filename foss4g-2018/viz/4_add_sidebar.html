@@ -20,17 +20,17 @@
         <div id="filter-ui" class="mt12">
           <h4 class="txt-m txt-bold mb6">Cause of death</h4>
             <label class="radio-container">
-            <input type="radio" name="radio-filter" value="deaths_2013_Total" checked="">
+            <input type="radio" name="radio-filter" value="Total" checked="">
             <div class="radio mr6"> </div>
             <span>Total</span>
           </label><br>
           <label class="radio-container">
-            <input type="radio" name="radio-filter" value="deaths_2013_Malaria- Severe, Complicated">
+            <input type="radio" name="radio-filter" value="Malaria- Severe, Complicated">
             <div class="radio mr6"> </div>
             <span>Malaria</span>
           </label><br>
           <label class="radio-container">
-            <input type="radio" name="radio-filter" value="deaths_2013_Diabetes Mellitus">
+            <input type="radio" name="radio-filter" value="Diabetes Mellitus">
             <div class="radio mr6"> </div>
             <span>Diabetes Mellitus</span>
           </label><br>
@@ -42,9 +42,9 @@
 </div>
 <script>
 var dataRanges = {
-  'deaths_2013_Total': [301, 1196, 2090],
-  'deaths_2013_Malaria- Severe, Complicated': [39, 234.5, 430],
-  'deaths_2013_Diabetes Mellitus': [1, 33, 65]
+  'Total': [301, 1196, 2090],
+  'Malaria- Severe, Complicated': [39, 234.5, 430],
+  'Diabetes Mellitus': [1, 33, 65]
 };
 
 
@@ -83,12 +83,12 @@ function setupPopupHandler() {
       var hoveredFeature = features[0];
       var props = hoveredFeature.properties;
       var popupHtml = "<b>Diabetes Mellitus:</b>"
-        + "<span>" + props['deaths_2013_Diabetes Mellitus'] + "</span><br />"
+        + "<span>" + props['Diabetes Mellitus'] + "</span><br />"
         + "<b>Malaria severe:</b>"
-        + "<span>" + props['deaths_2013_Malaria- Severe, Complicated'] + "</span>"
+        + "<span>" + props['Malaria- Severe, Complicated'] + "</span>"
         + "<hr class='txt-hr my3'>"
         + "<b>Total Deaths:</b>"
-        + "<span>" + props['deaths_2013_Total'] + "</span>";
+        + "<span>" + props['Total'] + "</span>";
       
       popup.setLngLat(e.lngLat)
            .setHTML(popupHtml)
@@ -112,7 +112,7 @@ function setupFilters() {
 
 function colorRegions(interpolationField, stops) {
   if (stops.length < 3) throw new Error('Need to provide at least 3 stops to interpolate across');
-  map.setPaintProperty('tanzania-deaths', 'fill-color', [
+  map.setPaintProperty('tanzania_deaths', 'fill-color', [
     "interpolate",
     ["linear"],
     ["get", interpolationField],

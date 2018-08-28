@@ -48,12 +48,12 @@ function setupPopupHandler() {
       var hoveredFeature = features[0];
       var props = hoveredFeature.properties;
       var popupHtml = "<b>Diabetes Mellitus:</b>"
-        + "<span>" + props['deaths_2013_Diabetes Mellitus'] + "</span><br />"
+        + "<span>" + props['Diabetes Mellitus'] + "</span><br />"
         + "<b>Malaria severe:</b>"
-        + "<span>" + props['deaths_2013_Malaria- Severe, Complicated'] + "</span>"
+        + "<span>" + props['Malaria- Severe, Complicated'] + "</span>"
         + "<hr class='txt-hr my3'>"
         + "<b>Total Deaths:</b>"
-        + "<span>" + props['deaths_2013_Total'] + "</span>";
+        + "<span>" + props['Total'] + "</span>";
       
       popup.setLngLat(e.lngLat)
            .setHTML(popupHtml)
