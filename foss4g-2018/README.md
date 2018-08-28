@@ -118,7 +118,7 @@ Now delete all the other rows except the first header row and save it with the s
 
 
 
-> Bonus: To take this a step further you could later also try to join the population per region to compare the absolute numbers to the total population per region. http://www.nbs.go.tz/nbstz/index.php/english/statistics-by-subject/population-and-housing-census/844-tanzania-total-population-by-district-regions-2016.
+> Bonus: To take this a step further you should later also try to join the population per region to compare the absolute numbers to the total population per region. http://www.nbs.go.tz/nbstz/index.php/english/statistics-by-subject/population-and-housing-census/844-tanzania-total-population-by-district-regions-2016.
 
 
 ## 2. Processing
@@ -644,9 +644,9 @@ map.on('load', function () {
 In this workshop you have learned what Mapbox GL is and how you can leverage it together with vector tiles to create your own data visualizations.
 You can find many more resources on our documentation or examples page.
 
-📖 https://www.mapbox.com/help/how-web-apps-work/
-📖 https://www.mapbox.com/mapbox-gl-js/api/
-📖 https://www.mapbox.com/mapbox-gl-js/examples/
+- 📖 https://www.mapbox.com/help/how-web-apps-work/
+- 📖 https://www.mapbox.com/mapbox-gl-js/api/
+- 📖 https://www.mapbox.com/mapbox-gl-js/examples/
 
 To learn more about Mapbox GL join the talk of Konstantin about “Interactive mobile maps with the Mapbox Maps SDK” at 11:30am on Friday at Bagamoyo.
 [And keep in touch with us during FOSS4G.](https://www.mapbox.com/events/foss4g-global-2018/)
