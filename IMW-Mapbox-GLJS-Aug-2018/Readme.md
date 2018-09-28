@@ -13,7 +13,7 @@
 
 ## Part 1: Orientation
 
-**→ First - create a free Mapbox account at** [****](https://www.mapbox.com/signup/)[**https://www.mapbox.com/signup/**](https://www.mapbox.com/signup/)
+**→ First - create a free Mapbox account at [https://www.mapbox.com/signup/](https://www.mapbox.com/signup/)
 If you have a Mapbox account, log in, if not sign up for Mapbox. It’s totally free to sign up. You need a Mapbox account to get your Mapbox Access token.
 **→ Quick intro to Mapbox GL JS (how and why to use this)**
 
@@ -21,7 +21,7 @@ If you have a Mapbox account, log in, if not sign up for Mapbox. It’s totally 
 - Maps made with Mapbox GL JS for more design control and interactivity: [https://native-land.ca/](https://native-land.ca/) or [https://www.mapbox.com/amnesty/](https://www.mapbox.com/amnesty/) or [https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html) 
 
 
-## Part 2: Intro to web development*
+## Part 2: Intro to web development
 
 **This is a very beginner intro by a non-developer - there’s a lot more to learn about developing more complex sites, but we’re focusing just on a simple web map. For more complex projects, you’ll want to learn more about version control and using Github properly, with pull requests etc.**
 
