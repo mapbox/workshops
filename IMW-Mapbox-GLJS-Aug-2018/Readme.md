@@ -152,19 +152,4 @@ If you didn’t attend the Mapbox Studio session, or don’t like choropleths, y
   2. Make a heatmap: [https://www.mapbox.com/help/make-a-heatmap-with-mapbox-gl-js/](https://www.mapbox.com/help/make-a-heatmap-with-mapbox-gl-js/) 
   3. Experiment with other things in the Mapbox GL JS examples library! [https://www.mapbox.com/mapbox-gl-js/examples/](https://www.mapbox.com/mapbox-gl-js/examples/) 
 
-## 2017 IMW Session
-
-**External Resources**
-[https://api.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.css](https://api.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.css) 
-[https://api.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.js](https://api.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.js) 
-**Workshop**
-We’re going to use a code editing tool called jsFiddle to add a simple toggle and hover-over information to make our map interactive, so it will look like this (screenshot is after hovering the mouse over the Northwest Territories): 
-
-![Screen Shot 2017-10-20 at 4.07.53 PM.png](https://lh4.googleusercontent.com/jpbI0HRd4CbCJj1f-z8YjVHShT2SHExSW6m6LmsjPTj628E-QyMnC4LbOhn05O16WlY-INaoybZtofT-8aXMx9Vc55D5v3ltGQ1UT-iDDbZa-y_m-bx3SmiOb6UrVXbI7NnDYK3w)
-
-
-The following links are shared from Alex’s jsFiddle account - you can work with them but you **can't save your edits** (otherwise everyone's work would change). Instead, use the button in jsFiddle that says `Run` - this lets you continually rerun your code to get your updates. **Don’t close your tab until you are completely finished**, or you will lose your edits!
-Incomplete one to work with: [https://jsfiddle.net/aparlato/ebpqc82y/2/](https://jsfiddle.net/aparlato/ebpqc82y/2/)
-Complete one for reference: [https://jsfiddle.net/aparlato/2oondv1u/](https://jsfiddle.net/aparlato/2oondv1u/) 
-
 
