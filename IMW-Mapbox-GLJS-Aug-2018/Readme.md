@@ -17,7 +17,7 @@
 If you have a Mapbox account, log in, if not sign up for Mapbox. It’s totally free to sign up. You need a Mapbox account to get your Mapbox Access token.
 **→ Quick intro to Mapbox GL JS (how and why to use this)**
 
-- Example Mapbox Studio style share URL without GL JS (only basic interactivity): [https://api.mapbox.com/styles/v1/marenab/cjl2oczit56x42rlxm5adlopg.html?fresh=true&title=true&access_token=pk.eyJ1IjoibWFyZW5hYiIsImEiOiJjajV2ajVyZXUwMnN3MzNwNzR3Ynk2cjIyIn0.sI-ynx23EEdpZFbEDu6qjA#2.7/60.715490/-95.644258/0](https://api.mapbox.com/styles/v1/marenab/cjl2oczit56x42rlxm5adlopg.html?fresh=true&title=true&access_token=pk.eyJ1IjoibWFyZW5hYiIsImEiOiJjajV2ajVyZXUwMnN3MzNwNzR3Ynk2cjIyIn0.sI-ynx23EEdpZFbEDu6qjA#2.7/60.715490/-95.644258/0) 
+- A Mapbox Studio style share URL only have basic interactivity, how can you add more? 
 - Maps made with Mapbox GL JS for more design control and interactivity: [https://native-land.ca/](https://native-land.ca/) or [https://www.mapbox.com/amnesty/](https://www.mapbox.com/amnesty/) or [https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html) 
 
 
