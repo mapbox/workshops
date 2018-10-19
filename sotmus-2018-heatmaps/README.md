@@ -139,6 +139,8 @@ Next, bring the GeoJSON data into Studio by importing it as a tileset. Switch to
 
 Example: https://www.mapbox.com/studio/tilesets/1ec5.5dxtwy7u/
 
+**Note:** Metro Detroit has enough building data that the GeoJSON exceeds the 5&nbsp;MB limit for uploads within Studio. To get around this limitation, use the [Uploads API](https://www.mapbox.com/api-documentation/#uploads), which has a more generous limit of 1&nbsp;GB for GeoJSON files.
+
 Now that we have more data, let’s go through the motions of adding a heatmap layer again. Once again, choose a layer in a style, but this time the layers come from the tileset we just uploaded.
 
 ![](unused-sources.png)
