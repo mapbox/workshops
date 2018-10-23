@@ -29,3 +29,5 @@ We run many workshops - basic mapping on [OpenStreetMap](https://www.openstreetm
 22. [Mapbox GL JS - Coding is cool!](https://github.com/mapbox/workshops/tree/gh-pages/IMW-Mapbox-GLJS-Aug-2018) at Indigenous Mapping Workshops, Montreal on 2018-08-20 to 2018-08-23
 23. [QGIS Data Processing](https://github.com/mapbox/workshops/blob/gh-pages/IMW2018_QGIS_processing/IMW2018_QGIS_data_processing.md) at Indigenous Mapping Workshops, Montreal on 2018-08-20 to 2018-08-23
 24. [Making data driven web maps and visualizations with Mapbox](https://github.com/mapbox/workshops/tree/gh-pages/foss4g-2018) at FOSS4G Dar es Salaam, Tanzania on 2018-08-28
+25. [Make your own custom heatmap with OpenStreetMap data and Mapbox
+](https://github.com/mapbox/workshops/blob/gh-pages/sotmus-2018-heatmaps/README.md) at State of the Map U.S. in Detroit on 2018-10-06
